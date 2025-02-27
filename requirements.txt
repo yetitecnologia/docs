@@ -1,0 +1,14 @@
+blockdiag>=2.0.0
+nwdiag>=2.0.0
+seqdiag>=2.0.0
+actdiag>=2.0.0
+sphinx
+sphinx-sitemap
+sphinx-tabs
+sphinx_rtd_theme==2.0.0
+sphinxcontrib-blockdiag
+sphinxcontrib-nwdiag
+sphinxcontrib-seqdiag
+sphinxcontrib-actdiag
+blockdiagcontrib-cisco
+Pillow
