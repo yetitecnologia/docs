@@ -11,7 +11,7 @@ Mdnsrepeater
     "``GET``","mdnsrepeater","service","status",""
     "``POST``","mdnsrepeater","service","stop",""
 
-    "``<<uses>>``", "", "", "", "*model* `MDNSRepeater.xml <https://github.com/opnsense/plugins/blob/master/net/mdns-repeater/src/opnsense/mvc/app/models/OPNsense/MDNSRepeater/MDNSRepeater.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `MDNSRepeater.xml <https://github.com/yetitecnologia/plugins/blob/master/net/mdns-repeater/src/opnsense/mvc/app/models/OPNsense/MDNSRepeater/MDNSRepeater.xml>`__"
 
 .. csv-table:: Service (SettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -20,4 +20,4 @@ Mdnsrepeater
     "``GET``","mdnsrepeater","settings","get",""
     "``POST``","mdnsrepeater","settings","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `MDNSRepeater.xml <https://github.com/opnsense/plugins/blob/master/net/mdns-repeater/src/opnsense/mvc/app/models/OPNsense/MDNSRepeater/MDNSRepeater.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `MDNSRepeater.xml <https://github.com/yetitecnologia/plugins/blob/master/net/mdns-repeater/src/opnsense/mvc/app/models/OPNsense/MDNSRepeater/MDNSRepeater.xml>`__"

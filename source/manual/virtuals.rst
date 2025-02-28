@@ -86,7 +86,7 @@ What it will also do is turn a supported stock FreeBSD release into an OPNsense
 installation.  Both UFS and ZFS installations are supported.
 
 opnsense bootstrap is available for our
-`github source repository <https://github.com/opnsense/update/tree/master/bootstrap>`__
+`github source repository <https://github.com/yetitecnologia/update/tree/master/bootstrap>`__
 
 
 

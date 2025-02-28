@@ -15,4 +15,4 @@ Helloworld
     "``GET``","helloworld","settings","get",""
     "``POST``","helloworld","settings","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `HelloWorld.xml <https://github.com/opnsense/plugins/blob/master/devel/helloworld/src/opnsense/mvc/app/models/OPNsense/HelloWorld/HelloWorld.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `HelloWorld.xml <https://github.com/yetitecnologia/plugins/blob/master/devel/helloworld/src/opnsense/mvc/app/models/OPNsense/HelloWorld/HelloWorld.xml>`__"

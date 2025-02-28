@@ -8,7 +8,7 @@ Tailscale
     "``GET``","tailscale","authentication","get",""
     "``POST``","tailscale","authentication","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `Authentication.xml <https://github.com/opnsense/plugins/blob/master/security/tailscale/src/opnsense/mvc/app/models/OPNsense/Tailscale/Authentication.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Authentication.xml <https://github.com/yetitecnologia/plugins/blob/master/security/tailscale/src/opnsense/mvc/app/models/OPNsense/Tailscale/Authentication.xml>`__"
 
 .. csv-table:: Service (ServiceController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -20,7 +20,7 @@ Tailscale
     "``GET``","tailscale","service","status",""
     "``POST``","tailscale","service","stop",""
 
-    "``<<uses>>``", "", "", "", "*model* `Settings.xml <https://github.com/opnsense/plugins/blob/master/security/tailscale/src/opnsense/mvc/app/models/OPNsense/Tailscale/Settings.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Settings.xml <https://github.com/yetitecnologia/plugins/blob/master/security/tailscale/src/opnsense/mvc/app/models/OPNsense/Tailscale/Settings.xml>`__"
 
 .. csv-table:: Resources (SettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -35,7 +35,7 @@ Tailscale
     "``POST``","tailscale","settings","set",""
     "``POST``","tailscale","settings","setSubnet","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Settings.xml <https://github.com/opnsense/plugins/blob/master/security/tailscale/src/opnsense/mvc/app/models/OPNsense/Tailscale/Settings.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Settings.xml <https://github.com/yetitecnologia/plugins/blob/master/security/tailscale/src/opnsense/mvc/app/models/OPNsense/Tailscale/Settings.xml>`__"
 
 .. csv-table:: Service (StatusController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -47,4 +47,4 @@ Tailscale
     "``POST``","tailscale","status","set",""
     "``GET``","tailscale","status","status",""
 
-    "``<<uses>>``", "", "", "", "*model* `Status.xml <https://github.com/opnsense/plugins/blob/master/security/tailscale/src/opnsense/mvc/app/models/OPNsense/Tailscale/Status.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Status.xml <https://github.com/yetitecnologia/plugins/blob/master/security/tailscale/src/opnsense/mvc/app/models/OPNsense/Tailscale/Status.xml>`__"

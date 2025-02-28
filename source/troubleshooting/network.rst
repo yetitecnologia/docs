@@ -53,7 +53,7 @@ Common error codes
 ---------------------------------
 
 Any piece of software that uses system calls to communicate over sockets use the standard interface 
-`errno.h <https://github.com/opnsense/src/blob/master/sys/sys/errno.h>`__ (:code:`man errno`). If an error
+`errno.h <https://github.com/yetitecnologia/src/blob/master/sys/sys/errno.h>`__ (:code:`man errno`). If an error
 is logged, a return code is associated to a specific reason of failure. Some common ones are explained below:
 
 ======  ==================== =================================================================================

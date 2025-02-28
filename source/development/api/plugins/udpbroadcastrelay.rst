@@ -14,7 +14,7 @@ Udpbroadcastrelay
     "``GET``","udpbroadcastrelay","service","status","$uuid"
     "``GET``","udpbroadcastrelay","service","stop","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `UDPBroadcastRelay.xml <https://github.com/opnsense/plugins/blob/master/net/udpbroadcastrelay/src/opnsense/mvc/app/models/OPNsense/UDPBroadcastRelay/UDPBroadcastRelay.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `UDPBroadcastRelay.xml <https://github.com/yetitecnologia/plugins/blob/master/net/udpbroadcastrelay/src/opnsense/mvc/app/models/OPNsense/UDPBroadcastRelay/UDPBroadcastRelay.xml>`__"
 
 .. csv-table:: Resources (SettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"

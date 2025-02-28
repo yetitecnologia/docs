@@ -36,7 +36,7 @@ from packaging import version
 from jinja2 import Template
 
 def download_zip(target_filename):
-    req = requests.get("https://github.com/opnsense/changelog/archive/master.zip", stream=True)
+    req = requests.get("https://github.com/yetitecnologia/changelog/archive/master.zip", stream=True)
     if req.status_code == 200:
         req.raw.decode_content = True
         with open(target_filename, 'wb') as f_out:

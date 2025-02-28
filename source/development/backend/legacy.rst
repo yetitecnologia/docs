@@ -292,7 +292,7 @@ To test if a service registration functions properly, just restart the syslog fa
     In order to define local targets for Syslog-NG you can just add **local** filters (e.g. by creating 
     :code:`src/opnsense/service/templates/OPNsense/Syslog/local/helloworld.conf`) which will be collected into
     one large syslog configuration.
-    The readme on `GitHub <https://github.com/opnsense/core/blob/master/src/opnsense/service/templates/OPNsense/Syslog/local/README>`__
+    The readme on `GitHub <https://github.com/yetitecnologia/core/blob/master/src/opnsense/service/templates/OPNsense/Syslog/local/README>`__
     describes the process.
     When running into issues, always make sure to manually restart syslog-ng first (:code:`service syslog-ng restart`), definition errors won't
     be written into any log. You will also have to restart the plugin (:code:`pluginctl -s syslog-ng restart`) for the syslog-ng configuration
@@ -302,7 +302,7 @@ To test if a service registration functions properly, just restart the syslog fa
 
     In case additional source sockets should be used by Syslog-NG you can add files in :code:`/usr/local/opnsense/service/templates/OPNsense/Syslog/sources/`
     containing definitions.
-    The `001-local.conf <https://github.com/opnsense/core/blob/22.1.7/src/opnsense/service/templates/OPNsense/Syslog/sources/001-local.conf#L5>`__ file
+    The `001-local.conf <https://github.com/yetitecnologia/core/blob/22.1.7/src/opnsense/service/templates/OPNsense/Syslog/sources/001-local.conf#L5>`__ file
     contains examples from jailed core services.
 
 -----------------

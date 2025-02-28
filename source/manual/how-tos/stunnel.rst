@@ -168,7 +168,7 @@ Enable Identd
 
 Our stunnel plugin is packed with an additional service providing an `ident <https://en.wikipedia.org/wiki/Ident_protocol>`__ (RFC 1413) protocol
 service.
-This service depends on a custom `patch <https://github.com/opnsense/ports/commit/1b9d7b1416046357cd9b2187c038787b19f2a813>`__ we ship in stunnel, making sure authenticated TLS sessions are logged properly, so our
+This service depends on a custom `patch <https://github.com/yetitecnologia/ports/commit/1b9d7b1416046357cd9b2187c038787b19f2a813>`__ we ship in stunnel, making sure authenticated TLS sessions are logged properly, so our
 ident service can filter them to track a user that belongs to an stunnel session.
 
 When a TLS session is authenticated, a log record like the one below will be send to syslog.

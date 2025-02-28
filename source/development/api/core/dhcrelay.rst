@@ -25,4 +25,4 @@ Dhcrelay
     "``POST``","dhcrelay","settings","setRelay","$uuid"
     "``POST``","dhcrelay","settings","toggleRelay","$uuid,$enabled=null"
 
-    "``<<uses>>``", "", "", "", "*model* `DHCRelay.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/DHCRelay/DHCRelay.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `DHCRelay.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/DHCRelay/DHCRelay.xml>`__"

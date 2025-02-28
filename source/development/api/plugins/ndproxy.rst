@@ -8,7 +8,7 @@ Ndproxy
     "``GET``","ndproxy","general","get",""
     "``POST``","ndproxy","general","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `Ndproxy.xml <https://github.com/opnsense/plugins/blob/master/net/ndproxy/src/opnsense/mvc/app/models/OPNsense/Ndproxy/Ndproxy.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Ndproxy.xml <https://github.com/yetitecnologia/plugins/blob/master/net/ndproxy/src/opnsense/mvc/app/models/OPNsense/Ndproxy/Ndproxy.xml>`__"
 
 .. csv-table:: Service (ServiceController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -20,4 +20,4 @@ Ndproxy
     "``GET``","ndproxy","service","status",""
     "``POST``","ndproxy","service","stop",""
 
-    "``<<uses>>``", "", "", "", "*model* `Ndproxy.xml <https://github.com/opnsense/plugins/blob/master/net/ndproxy/src/opnsense/mvc/app/models/OPNsense/Ndproxy/Ndproxy.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Ndproxy.xml <https://github.com/yetitecnologia/plugins/blob/master/net/ndproxy/src/opnsense/mvc/app/models/OPNsense/Ndproxy/Ndproxy.xml>`__"

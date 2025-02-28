@@ -74,7 +74,7 @@ Here are the full patch notes:
 * mvc: added mutable service controller
 * mvc: added sub-tab layout partials
 * mvc: do not render empty toggle header
-* plugins: acme-client 1.13 `[1] <https://github.com/opnsense/plugins/pull/482>`__  (contributed by Frank Wall)
+* plugins: acme-client 1.13 `[1] <https://github.com/yetitecnologia/plugins/pull/482>`__  (contributed by Frank Wall)
 * plugins: dyndns 1.5 with button in link usage fix (contributed by NOYB)
 * plugins: helloworld 1.4
 * plugins: igmp-proxy 1.3 with button in link usage fix (contributed by NOYB)
@@ -177,7 +177,7 @@ bug fixes.
 
 Here are the full patch notes:
 
-* system: fix XSS with crafted certificates in certificate manager `[1] <https://github.com/opnsense/core/issues/1964>`__ 
+* system: fix XSS with crafted certificates in certificate manager `[1] <https://github.com/yetitecnologia/core/issues/1964>`__ 
 * system: removed duplicated firmware privileges
 * system: fix resolving routes in diagnostics page
 * system: regenerated DH parameters
@@ -195,12 +195,12 @@ Here are the full patch notes:
 * mvc: correctly hide advanced option headers in forms (contributed by Evgeny Bevz)
 * ui: fix for deactivated storage in sticky "help all" toggle (contributed by Fabian Franz)
 * ui: make "advanced mode" sticky too
-* plugins: os-acme-client 1.12 `[2] <https://github.com/opnsense/plugins/pull/336>`__  (contributed by Frank Wall)
+* plugins: os-acme-client 1.12 `[2] <https://github.com/yetitecnologia/plugins/pull/336>`__  (contributed by Frank Wall)
 * plugins: os-arp-scan (contributed by Giuseppe De Marco)
 * plugins: os-clamav 1.3 (contributed by Alexander Shursha)
 * plugins: os-dyndns 1.4 adds Route53 IPv6 support (contributed by Kuo-Cheng Yeu)
 * plugins: os-freeradius 1.3.1 (contributed by Michael Muenz)
-* plugins: os-haproxy 2.0 `[3] <https://github.com/opnsense/plugins/pull/330>`__  (contributed by Frank Wall)
+* plugins: os-haproxy 2.0 `[3] <https://github.com/yetitecnologia/plugins/pull/330>`__  (contributed by Frank Wall)
 * plugins: os-relayd 1.2 fixes "check send" directive
 * plugins: os-tor 1.3 (contributed by Fabian Franz)
 * plugins: os-zabbix-agent 1.2 fixes service status indicator
@@ -220,12 +220,12 @@ A hotfix release was issued as 17.7.9_8:
 * ipsec: fix 2 PHP 7.1 warnings and one runtime error
 * interfaces: fix a PHP 7.1 warning
 * intrusion detection: add protocol display to alert dialog
-* plugins: os-haproxy 2.1 fixes HSTS usage `[9] <https://github.com/opnsense/plugins/pull/419>`__  (contributed by Frank Wall)
+* plugins: os-haproxy 2.1 fixes HSTS usage `[9] <https://github.com/yetitecnologia/plugins/pull/419>`__  (contributed by Frank Wall)
 
 Another hotfix release was issued as 17.7.9_9:
 
 * system: fix a PHP 7.1 runtime error in certificate generation
-* plugins: os-haproxy 2.2 fixes rules parameters `[10] <https://github.com/opnsense/plugins/pull/420>`__  (contributed by Frank Wall)
+* plugins: os-haproxy 2.2 fixes rules parameters `[10] <https://github.com/yetitecnologia/plugins/pull/420>`__  (contributed by Frank Wall)
 
 
 
@@ -442,7 +442,7 @@ We would also like to use this opportunity to remind everyone that OPNsense
 is and always will be free software.  All of its source code and associated
 build tools can be found here:
 
-https://github.com/opnsense
+https://github.com/yetitecnologia
 
 Download links, an installation guide, the full list of changes and the
 checksums for the images can be found below.
@@ -534,7 +534,7 @@ And here are the full patch notes:
 * mvc: support value attribute for model option data
 * installer: UEFI partition size increased to 200 MB
 * installer: always error on password mismatch
-* plugins: os-acme-client 1.11 `[1] <https://github.com/opnsense/plugins/pull/290>`__  (contributed by Frank Wall)
+* plugins: os-acme-client 1.11 `[1] <https://github.com/yetitecnologia/plugins/pull/290>`__  (contributed by Frank Wall)
 * plugins: os-c-icap 1.1 logging and virus scan settings (contributed by Michael Muenz)
 * plugins: os-tor 1.0 (contributed by Fabian Franz)
 * plugins: os-zerotier 1.2.0 allows local.conf settings (contributed by David Harrigan)
@@ -600,7 +600,7 @@ Here are the full patch notes:
 * ui: allow runtime bootgrid translation (contributed by Fabian Franz)
 * plugins: migrate plugin models on install
 * plugins: only restart configd once on reinstall
-* plugins: os-acme-client 1.10 `[1] <https://github.com/opnsense/plugins/pull/254>`__  (contributed by Frank Wall)
+* plugins: os-acme-client 1.10 `[1] <https://github.com/yetitecnologia/plugins/pull/254>`__  (contributed by Frank Wall)
 * plugins: os-clamav 1.0 `[2] <https://docs.opnsense.org/manual/how-tos/clamav.html>`__  (contributed by Michael Muenz)
 * plugins: os-c-icap 1.0 `[3] <https://docs.opnsense.org/manual/how-tos/c-icap.html>`__  (contributed by Michael Muenz)
 * plugins: os-dyndns fix for Cloudflare proxy status (contributed by sll552)
@@ -627,7 +627,7 @@ We would also like to use this opportunity to remind everyone that
 OPNsense is and always will be free software.  All of its source
 code and associated build tools can be found here:
 
-https://github.com/opnsense
+https://github.com/yetitecnologia
 
 Over the course of the coming weeks, we will be focusing on releasing the
 roadmap for version 18.1, ClamAV integration, PHP 7.1 and going back to
@@ -660,7 +660,7 @@ Here are the full patch notes of the initial 17.7.1:
 * captive portal: fix startup after unclean shutdown
 * dhcp: fix string offset warnings in leases page (contributed by Elias Werberich)
 * intrusion detection: fix startup after config import if no remote files have been downloaded yet
-* ipsec: portable NAT before IPsec support `[1] <https://github.com/opnsense/core/issues/440>`__ 
+* ipsec: portable NAT before IPsec support `[1] <https://github.com/yetitecnologia/core/issues/440>`__ 
 * openvpn: fix Tunnelblick link on export page (contributed by Stefan Husch)
 * openvpn: fix connected timestamp and bytes up/down display
 * openvpn: write proxy auth file in shared key export
@@ -758,8 +758,8 @@ Here is the full list of changes against version 17.7-RC2:
 
 The list of currently known issues with 17.7:
 
-* Users from 17.7-RC2 may have trouble upgrading via the GUI `[4] <https://github.com/opnsense/core/commit/246513c>`__ .  Run "opnsense-patch 246513c" from the command line to correct this problem.
-* A regression in floating rules in 17.7 does not honour the non-quick setting `[5] <https://github.com/opnsense/core/commit/f25d8b>`__ .  Run "opnsense-patch f25d8b" from the command line to correct this problem.
+* Users from 17.7-RC2 may have trouble upgrading via the GUI `[4] <https://github.com/yetitecnologia/core/commit/246513c>`__ .  Run "opnsense-patch 246513c" from the command line to correct this problem.
+* A regression in floating rules in 17.7 does not honour the non-quick setting `[5] <https://github.com/yetitecnologia/core/commit/f25d8b>`__ .  Run "opnsense-patch f25d8b" from the command line to correct this problem.
 * The dynamic DNS functionality was moved to the "os-dyndns" plugin.  It must be reinstalled after the upgrade if needed.  Its settings are kept.
 * The RFC 2136 functionality was moved to the "os-rfc2136" plugin.  It must be reinstalled after the upgrade if needed.  Its settings are kept.
 
@@ -941,7 +941,7 @@ version 17.1.9:
 
 The list of currently known issues with 17.7-RC1:
 
-* WLAN devices cannot be created.  A patch exists `[2] <https://github.com/opnsense/core/commit/5cb149d>`__  to remedy this problem.
+* WLAN devices cannot be created.  A patch exists `[2] <https://github.com/yetitecnologia/core/commit/5cb149d>`__  to remedy this problem.
 * LAGG device destroy may cause a kernel panic.  A patch currently in testing.
 * The installer identifies itself as 17.1.
 

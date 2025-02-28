@@ -158,7 +158,7 @@ Image Filename Composition
    with the latest released version available. OPNsense installation images are provided
    on a scheduled basis with major release versions in January and July. More information
    on our release schedule is available from our package repository, see
-   `README <https://pkg.opnsense.org/releases/mirror/README>`__.  We are encouraged to update
+   `README <https://yeti.tec.br/yetisense/releases/mirror/README>`__.  We are encouraged to update
    OPNsense after installation to be on the latest release available, see
    `Update Page <https://docs.opnsense.org/manual/updates.html>`__.
 
@@ -189,11 +189,11 @@ it, open it up, and verify the public key matches the one from other sources. If
 does not, the mirror may have been hacked, or you may be the victim of a man-in-the-middle
 attack. Some other sources to get the public key from include:
 
-* https://pkg.opnsense.org/releases/mirror/README
+* https://yeti.tec.br/yetisense/releases/mirror/README
 * https://forum.opnsense.org/index.php?board=11.0
 * https://opnsense.org/blog/
-* https://github.com/opnsense/changelog/tree/master/community
-* https://pkg.opnsense.org (/<FreeBSD:<version>:<architecture>/<release version>/sets/changelog.txz)
+* https://github.com/yetitecnologia/changelog/tree/master/community
+* https://yeti.tec.br/yetisense (/<FreeBSD:<version>:<architecture>/<release version>/sets/changelog.txz)
 
 .. Note::
    Only major release announcements for images contain the public key, and update

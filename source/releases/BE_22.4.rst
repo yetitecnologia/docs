@@ -46,11 +46,11 @@ Here are the full patch notes:
 * mvc: IntegerFieldType: fix for negative numbers (contributed by xbb)
 * mvc: fix two regressions in BaseField for Phalcon 5
 * mvc: fix rowCount when all is selected in searchRecordsetBase()
-* plugins: os-ddclient 1.8 `[1] <https://github.com/opnsense/plugins/blob/stable/22.1/dns/ddclient/pkg-descr>`__ 
+* plugins: os-ddclient 1.8 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/dns/ddclient/pkg-descr>`__ 
 * plugins: os-firewall 1.2 fixes internal backup restore
-* plugins: os-postfix 1.23 `[2] <https://github.com/opnsense/plugins/blob/stable/22.1/mail/postfix/pkg-descr>`__ 
+* plugins: os-postfix 1.23 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/mail/postfix/pkg-descr>`__ 
 * plugins: os-stunnel 1.0.5 adds intermediates to server chain (contributed by Johnny S. Lee)
-* plugins: os-telegraf 1.12.5 `[3] <https://github.com/opnsense/plugins/blob/stable/22.1/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.5 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net-mgmt/telegraf/pkg-descr>`__ 
 * ports: nss 3.80 `[4] <https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_80.html>`__ 
 * ports: py-vici 5.9.3
 * ports: python 3.9.13 `[5] <https://docs.python.org/release/3.9.13/whatsnew/changelog.html>`__ 
@@ -107,13 +107,13 @@ Here are the full patch notes:
 * unbound: zero_ttl is no longer a valid statistic (contributed by David Mora)
 * mvc: distinct between HTTP errors 401 and 403 during authentication
 * mvc: call microtime(true) only once during config save (contributed by csbyte)
-* plugins: os-acme-client 3.11 `[1] <https://github.com/opnsense/plugins/blob/stable/22.1/security/acme-client/pkg-descr>`__ 
-* plugins: os-ddclient 1.7 `[2] <https://github.com/opnsense/plugins/blob/stable/22.1/dns/ddclient/pkg-descr>`__ 
+* plugins: os-acme-client 3.11 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/security/acme-client/pkg-descr>`__ 
+* plugins: os-ddclient 1.7 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/dns/ddclient/pkg-descr>`__ 
 * plugins: os-debug 1.5 fixes deprecated xdebug syntax
-* plugins: os-frr 1.29 `[3] <https://github.com/opnsense/plugins/blob/stable/22.1/net/frr/pkg-descr>`__ 
-* plugins: os-nginx 1.28 `[4] <https://github.com/opnsense/plugins/blob/stable/22.1/www/nginx/pkg-descr>`__ 
-* plugins: os-postfix 1.22 `[5] <https://github.com/opnsense/plugins/blob/stable/22.1/mail/postfix/pkg-descr>`__ 
-* plugins: os-wireguard 1.11 `[6] <https://github.com/opnsense/plugins/blob/stable/22.1/net/wireguard/pkg-descr>`__ 
+* plugins: os-frr 1.29 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net/frr/pkg-descr>`__ 
+* plugins: os-nginx 1.28 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/www/nginx/pkg-descr>`__ 
+* plugins: os-postfix 1.22 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/mail/postfix/pkg-descr>`__ 
+* plugins: os-wireguard 1.11 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net/wireguard/pkg-descr>`__ 
 * src: pf: fix memory leaks in nvlist usage
 * src: pf: stop resolving hosts as dns that use ":" modifier
 * src: e1000: Increase rx_buffer_size to 32b
@@ -185,15 +185,15 @@ Here are the full patch notes:
 * plugins: os-OPNBEcore 1.0.2 cleans up LDAP sync task
 * plugins: os-OPNProxy 1.0.2 fixes newline issue in template
 * plugins: os-OPNcentral 1.5 `[1] <https://docs.opnsense.org/vendor/deciso/opncentral.html?highlight=opncentral#multi-tenancy-using-host-groups>`__ 
-* plugins: os-acme-client 3.10 `[2] <https://github.com/opnsense/plugins/blob/stable/22.1/security/acme-client/pkg-descr>`__ 
-* plugins: os-bind 1.23 `[3] <https://github.com/opnsense/plugins/blob/stable/22.1/dns/bind/pkg-descr>`__ 
-* plugins: os-chrony 1.5 `[4] <https://github.com/opnsense/plugins/blob/stable/22.1/net/chrony/pkg-descr>`__ 
-* plugins: os-ddclient 1.5 `[5] <https://github.com/opnsense/plugins/blob/stable/22.1/dns/ddclient/pkg-descr>`__ 
-* plugins: os-dnscrypt-proxy 1.12 `[6] <https://github.com/opnsense/plugins/blob/stable/22.1/dns/dnscrypt-proxy/pkg-descr>`__ 
-* plugins: os-frr 1.28 `[7] <https://github.com/opnsense/plugins/blob/stable/22.1/net/frr/pkg-descr>`__ 
+* plugins: os-acme-client 3.10 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/security/acme-client/pkg-descr>`__ 
+* plugins: os-bind 1.23 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/dns/bind/pkg-descr>`__ 
+* plugins: os-chrony 1.5 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net/chrony/pkg-descr>`__ 
+* plugins: os-ddclient 1.5 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/dns/ddclient/pkg-descr>`__ 
+* plugins: os-dnscrypt-proxy 1.12 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/dns/dnscrypt-proxy/pkg-descr>`__ 
+* plugins: os-frr 1.28 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net/frr/pkg-descr>`__ 
 * plugins: os-relayd 2.7 adds listen address and port range to virtual servers
-* plugins: os-zabbix-agent 1.12 `[8] <https://github.com/opnsense/plugins/blob/stable/22.1/net-mgmt/zabbix-agent/pkg-descr>`__ 
-* plugins: os-zabbix-proxy 1.8 `[9] <https://github.com/opnsense/plugins/blob/stable/22.1/net-mgmt/zabbix-proxy/pkg-descr>`__ 
+* plugins: os-zabbix-agent 1.12 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net-mgmt/zabbix-agent/pkg-descr>`__ 
+* plugins: os-zabbix-proxy 1.8 `[9] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net-mgmt/zabbix-proxy/pkg-descr>`__ 
 * src: tcp: rewind erroneous RTO only while performing RTO retransmissions
 * src: bnxt: Allow bnxt interfaces to use VLANs
 * src: rc: use _pidcmd to determine pid for protect
@@ -445,24 +445,24 @@ Here are the full patch notes:
 * ui: universal striping adjustment for MVC components (contributed by kulikov-a)
 * ui: omit total entries display for log grids
 * plugins: os-OPNProxy 1.0.1 `[2] <https://docs.opnsense.org/vendor/deciso/opnproxy.html#authentication-options>`__ 
-* plugins: os-bind 1.22 `[3] <https://github.com/opnsense/plugins/blob/stable/22.1/dns/bind/pkg-descr>`__ 
-* plugins: os-ddclient 1.4 `[4] <https://github.com/opnsense/plugins/blob/stable/22.1/dns/ddclient/pkg-descr>`__  as an eventual replacement for os-dyndns
-* plugins: os-dnscrypt-proxy 1.11 `[5] <https://github.com/opnsense/plugins/blob/stable/22.1/dns/dnscrypt-proxy/pkg-descr>`__ 
+* plugins: os-bind 1.22 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/dns/bind/pkg-descr>`__ 
+* plugins: os-ddclient 1.4 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/dns/ddclient/pkg-descr>`__  as an eventual replacement for os-dyndns
+* plugins: os-dnscrypt-proxy 1.11 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/dns/dnscrypt-proxy/pkg-descr>`__ 
 * plugins: os-dyndns adds local copy of get_dyndns_ip()
 * plugins: os-dyndns menu compatibility with os-ddclient
-* plugins: os-freeradius 1.9.19 `[6] <https://github.com/opnsense/plugins/blob/stable/22.1/net/freeradius/pkg-descr>`__ 
-* plugins: os-frr 1.27 `[7] <https://github.com/opnsense/plugins/blob/stable/22.1/net/frr/pkg-descr>`__ 
-* plugins: os-haproxy 3.10 `[8] <https://github.com/opnsense/plugins/blob/stable/22.1/net/haproxy/pkg-descr>`__ 
-* plugins: os-mdns-repeater 1.1 `[9] <https://github.com/opnsense/plugins/blob/stable/22.1/net/mdns-repeater/pkg-descr>`__ 
-* plugins: os-nginx 1.26 `[10] <https://github.com/opnsense/plugins/blob/stable/22.1/www/nginx/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.19 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net/freeradius/pkg-descr>`__ 
+* plugins: os-frr 1.27 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net/frr/pkg-descr>`__ 
+* plugins: os-haproxy 3.10 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net/haproxy/pkg-descr>`__ 
+* plugins: os-mdns-repeater 1.1 `[9] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net/mdns-repeater/pkg-descr>`__ 
+* plugins: os-nginx 1.26 `[10] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/www/nginx/pkg-descr>`__ 
 * plugins: os-rfc2136 adds local copy of get_dyndns_ip()
-* plugins: os-rspamd 1.12 `[11] <https://github.com/opnsense/plugins/blob/stable/22.1/mail/rspamd/pkg-descr>`__ 
+* plugins: os-rspamd 1.12 `[11] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/mail/rspamd/pkg-descr>`__ 
 * plugins: os-stunnel 1.0.4 fix connect format for IPv6 (contributed by Johnny S. Lee)
 * plugins: os-theme-cicada 1.29
 * plugins: os-theme-vicuna 1.41
 * plugins: os-wol adds cron support for wake action (contributed by digitalshow)
-* plugins: os-zabbix-agent 1.11 `[12] <https://github.com/opnsense/plugins/blob/stable/22.1/net-mgmt/zabbix-agent/pkg-descr>`__ 
-* plugins: os-zabbix-proxy 1.7 `[13] <https://github.com/opnsense/plugins/blob/stable/22.1/net-mgmt/zabbix-proxy/pkg-descr>`__ 
+* plugins: os-zabbix-agent 1.11 `[12] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net-mgmt/zabbix-agent/pkg-descr>`__ 
+* plugins: os-zabbix-proxy 1.7 `[13] <https://github.com/yetitecnologia/plugins/blob/stable/22.1/net-mgmt/zabbix-proxy/pkg-descr>`__ 
 * src: FreeBSD 13-STABLE as of 4ee9fbcd853
 * src: migrated to LUA boot loader (contributed by Kyle Evans)
 * src: revert upstream permission change for /root directory
@@ -515,7 +515,7 @@ A hotfix release was issued as 22.4_2:
 Known issues and limitations:
 
 * This release contains a new major operating system version and should be carried out with the necessary care.  Despite extended test coverage changes made by FreeBSD may still affect operation without our knowledge.  Except for ZFS boot environments rollbacks between major operating system versions are extremely fragile and a reinstall of an older version should be attempted in the worst case.  For more information please consult the FreeBSD 13.0 release notes `[43] <https://www.freebsd.org/releases/13.0R/relnotes/>`__ .
-* IPsec hash and cipher removals in FreeBSD 13 can affect existing setups as insecure cryptographic options have been removed upstream.  If you are using MD5, Blowfish, DES, 3DES, or CAST128 in your phase 2 please move to more secure settings prior to the upgrade.  Note that phase 1 settings are unaffected, but insecure settings should still be avoided.  For more information see the FreeBSD commit in question `[44] <https://github.com/opnsense/src/commit/16aabb761c0a>`__ .
+* IPsec hash and cipher removals in FreeBSD 13 can affect existing setups as insecure cryptographic options have been removed upstream.  If you are using MD5, Blowfish, DES, 3DES, or CAST128 in your phase 2 please move to more secure settings prior to the upgrade.  Note that phase 1 settings are unaffected, but insecure settings should still be avoided.  For more information see the FreeBSD commit in question `[44] <https://github.com/yetitecnologia/src/commit/16aabb761c0a>`__ .
 * The Realtek vendor driver is no longer bundled with the updated FreeBSD kernel.  If unsure whether FreeBSD 13 supports your Realtek NIC please install the os-realtek-re plugin prior to upgrading to retain operability of your NICs.
 * MAC spoofing now only pertains to the configured interface and not the VLAN siblings or parent interface.  This can introduce unwanted configuration due to previous side effects in the code.  Make sure to assign and set the spoofed MAC for all interfaces that require a spoofed MAC or simply spoof the MAC on the parent and leave the VLAN sibling settings empty to let them follow the parent MAC automatically.  If in doubt the parent interface can be set into promiscuous mode now to allow for mixed MAC address use across VLANs too.
 * Media and hardware offload settings are no longer shown for non-parent interfaces and need to be set individually on the parent interface to take effect.  This can introduce unwanted configuration due to previous side effects in the code.  If the parent interface was not previously assigned please assign it to reapply the required settings.

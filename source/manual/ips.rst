@@ -348,7 +348,7 @@ OPNsense 18.1.11 introduced the app detection ruleset. Since about 80
 percent of traffic are web applications these rules are focused on blocking web
 services and the URLs behind them.
 
-If you want to contribute to the ruleset see: https://github.com/opnsense/rules
+If you want to contribute to the ruleset see: https://github.com/yetitecnologia/rules
 
 How-tos
 -------

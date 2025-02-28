@@ -86,18 +86,18 @@ Here are the full patch notes:
 * ui: add classes to system history diff content so themes can override the defaults
 * ui: load CSV as text to prevent encoding issues in SimpleFileUploadDlg()
 * plugins: turning binary data into JSON may fail globally
-* plugins: os-acme-client 4.7 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-caddy 1.8.0 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
-* plugins: os-ddclient 1.26 `[3] <https://github.com/opnsense/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
-* plugins: os-debug 1.7 `[4] <https://github.com/opnsense/plugins/blob/stable/24.7/devel/debug/pkg-descr>`__ 
-* plugins: os-freeradius 1.9.27 `[5] <https://github.com/opnsense/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
-* plugins: os-haproxy 4.4 `[6] <https://github.com/opnsense/plugins/blob/stable/24.7/net/haproxy/pkg-descr>`__ 
-* plugins: os-mdns-repeater 1.2 `[7] <https://github.com/opnsense/plugins/blob/stable/24.7/net/mdns-repeater/pkg-descr>`__ 
-* plugins: os-nut 1.9 `[8] <https://github.com/opnsense/plugins/blob/stable/24.7/sysutils/nut/pkg-descr>`__ 
-* plugins: os-qemu-guest-agent 1.3 `[9] <https://github.com/opnsense/plugins/blob/stable/24.7/emulators/qemu-guest-agent/pkg-descr>`__ 
-* plugins: os-squid 1.1 `[10] <https://github.com/opnsense/plugins/blob/stable/24.7/www/squid/pkg-descr>`__ 
-* plugins: os-tailscale 1.1 `[11] <https://github.com/opnsense/plugins/blob/stable/24.7/security/tailscale/pkg-descr>`__  (contributed by Sheridan Computers)
-* plugins: os-telegraf 1.12.12 `[12] <https://github.com/opnsense/plugins/blob/stable/24.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-acme-client 4.7 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-caddy 1.8.0 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-ddclient 1.26 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-debug 1.7 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/devel/debug/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.27 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
+* plugins: os-haproxy 4.4 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/haproxy/pkg-descr>`__ 
+* plugins: os-mdns-repeater 1.2 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/mdns-repeater/pkg-descr>`__ 
+* plugins: os-nut 1.9 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/sysutils/nut/pkg-descr>`__ 
+* plugins: os-qemu-guest-agent 1.3 `[9] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/emulators/qemu-guest-agent/pkg-descr>`__ 
+* plugins: os-squid 1.1 `[10] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/squid/pkg-descr>`__ 
+* plugins: os-tailscale 1.1 `[11] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/tailscale/pkg-descr>`__  (contributed by Sheridan Computers)
+* plugins: os-telegraf 1.12.12 `[12] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net-mgmt/telegraf/pkg-descr>`__ 
 * plugins: os-theme-rebellion 1.9.2 (contributed by Team Rebellion)
 * src: atf/kyua: ship regression tests runtime support
 * src: if_bridge: mask MEXTPG if some members do not support it
@@ -208,20 +208,20 @@ Here are the full patch notes:
 * mvc: remove obsolete sessionClose() use in Base, Firmware, Unbound and WireGuard controllers
 * ui: fix tree view style targeting elements outside this view
 * plugins: enforce defaults on devices
-* plugins: os-bind 1.33 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/dns/bind/pkg-descr>`__ 
-* plugins: os-caddy 1.7.4 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
-* plugins: os-ddclient 1.25 `[3] <https://github.com/opnsense/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-bind 1.33 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/dns/bind/pkg-descr>`__ 
+* plugins: os-caddy 1.7.4 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-ddclient 1.25 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
 * plugins: os-debug 1.6
 * plugins: os-etpro-telemetry lowers log level of collection invoke (contributed by doktornotor)
-* plugins: os-freeradius 1.9.26 `[4] <https://github.com/opnsense/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
-* plugins: os-frr 1.42 `[5] <https://github.com/opnsense/plugins/blob/stable/24.7/net/frr/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.26 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
+* plugins: os-frr 1.42 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/frr/pkg-descr>`__ 
 * plugins: os-iperf fixes JS TypeError when parsing result (contributed by Leo Huang)
-* plugins: os-lldpd 1.2 `[6] <https://github.com/opnsense/plugins/blob/stable/24.7/net-mgmt/lldpd/pkg-descr>`__ 
+* plugins: os-lldpd 1.2 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net-mgmt/lldpd/pkg-descr>`__ 
 * plugins: os-ndproxy 1.0 adds an IPv6 Neighbour Discovery proxy
-* plugins: os-net-snmp 1.6 `[7] <https://github.com/opnsense/plugins/blob/stable/24.7/net-mgmt/net-snmp/pkg-descr>`__ 
+* plugins: os-net-snmp 1.6 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net-mgmt/net-snmp/pkg-descr>`__ 
 * plugins: os-tinc removes "pipes" Python module dependency (contributed by andrewhotlab)
-* plugins: os-upnp 1.7 `[8] <https://github.com/opnsense/plugins/blob/stable/24.7/net/upnp/pkg-descr>`__ 
-* plugins: os-wazuh-agent 1.2 `[9] <https://github.com/opnsense/plugins/blob/stable/24.7/security/wazuh-agent/pkg-descr>`__ 
+* plugins: os-upnp 1.7 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/upnp/pkg-descr>`__ 
+* plugins: os-wazuh-agent 1.2 `[9] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/wazuh-agent/pkg-descr>`__ 
 * src: multiple issues in the bhyve hypervisor `[10] <https://www.freebsd.org/security/advisories/FreeBSD-SA-24:17.bhyve.asc>`__ 
 * src: unbounded allocation in ctl(4) CAM Target Layer `[11] <https://www.freebsd.org/security/advisories/FreeBSD-SA-24:18.ctl.asc>`__ 
 * src: XDG runtime directory file descriptor leak at login `[12] <https://www.freebsd.org/security/advisories/FreeBSD-EN-24:17.pam_xdg.asc>`__ 
@@ -489,19 +489,19 @@ Here are the full changes against version 24.4.3:
 * ui: remove bold text from tab headers for consistency
 * plugins: add plugins_argument_map() helper
 * plugins: os-OPNWAF 1.6 with multiple new features (see info in firmware plugins tab for details)
-* plugins: os-acme-client 4.6 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-apcupsd 1.2 `[3] <https://github.com/opnsense/plugins/blob/stable/24.7/sysutils/apcupsd/pkg-descr>`__ 
-* plugins: os-caddy 1.7.2 `[4] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-acme-client 4.6 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-apcupsd 1.2 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/sysutils/apcupsd/pkg-descr>`__ 
+* plugins: os-caddy 1.7.2 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
 * plugins: os-cpu-microcode-amd 1.0
 * plugins: os-cpu-microcode-intel 1.0
-* plugins: os-ddclient 1.24 `[5] <https://github.com/opnsense/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-ddclient 1.24 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
 * plugins: os-dec-hw 1.1 replaces the dashboard widget
 * plugins: os-etpro-telemetry 1.7 replaces dashboard widget
-* plugins: os-freeradius 1.9.25 `[6] <https://github.com/opnsense/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
-* plugins: os-frr 1.41 `[7] <https://github.com/opnsense/plugins/blob/stable/24.7/net/frr/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.25 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
+* plugins: os-frr 1.41 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/frr/pkg-descr>`__ 
 * plugins: os-helloworld 1.4
 * plugins: os-intrusion-detection-content-snort-vrt 1.2 switch to newer ruleset snapshot (contributed by Jim McKibben)
-* plugins: os-nginx 1.34 `[8] <https://github.com/opnsense/plugins/blob/stable/24.7/www/nginx/pkg-descr>`__ 
+* plugins: os-nginx 1.34 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/nginx/pkg-descr>`__ 
 * plugins: os-smart 2.3 adds new dashboard widget (contributed by Francisco Dimattia)
 * plugins: os-theme-advanced 1.0 based on AdvancedTomato (contributed by Jaka Prašnikar)
 * plugins: os-theme-cicada 1.38 (contributed by Team Rebellion)
@@ -509,7 +509,7 @@ Here are the full changes against version 24.4.3:
 * plugins: os-theme-tukan 1.28 (contributed by Dr. Uwe Meyer-Gruhl)
 * plugins: os-theme-vicuna 1.48 (contributed by Team Rebellion)
 * plugins: os-udpbroadcastrelay API error fixes (contributed by Team Rebellion)
-* plugins: os-upnp 1.6 `[9] <https://github.com/opnsense/plugins/blob/stable/24.7/net/upnp/pkg-descr>`__ 
+* plugins: os-upnp 1.6 `[9] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/upnp/pkg-descr>`__ 
 * plugins: os-wol 2.5 adds widget for new dashboard (contributed by Michał Brzeziński)
 * src: FreeBSD 14.1-RELEASE `[10] <https://www.freebsd.org/releases/14.1R/relnotes/>`__ 
 * src: assorted backports from FreeBSD stable/14 branch
@@ -552,7 +552,7 @@ Here are the full changes against version 24.4.3:
 * src: fetch: fix "--crl" option not working
 * ports: curl 8.10.1 `[23] <https://curl.se/changes.html#8_10_1>`__ 
 * ports: dhcp6c 20241008
-* ports: dhcrelay 1.0 `[24] <https://github.com/opnsense/dhcrelay/issues/2>`__ 
+* ports: dhcrelay 1.0 `[24] <https://github.com/yetitecnologia/dhcrelay/issues/2>`__ 
 * ports: dnspython 2.7.0
 * ports: expat 2.6.3 `[25] <https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes>`__ 
 * ports: hostapd 2.11 `[26] <https://w1.fi/cgit/hostap/plain/hostapd/ChangeLog>`__ 

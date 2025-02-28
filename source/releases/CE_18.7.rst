@@ -125,15 +125,15 @@ Here are the full patch notes:
 * wizard: assorted code cleanups
 * mvc: harden setFormData()
 * plugins: os-api-backup 1.0 allows API access to config.xml (contributed by Fabian Franz)
-* plugins: os-bind 1.4 `[1] <https://github.com/opnsense/plugins/blob/master/dns/bind/pkg-descr>`__  (contributed by Michael Muenz)
+* plugins: os-bind 1.4 `[1] <https://github.com/yetitecnologia/plugins/blob/master/dns/bind/pkg-descr>`__  (contributed by Michael Muenz)
 * plugins: os-clamav fixes /var MFS permission mismatch
 * plugins: os-dnscrypt-proxy 1.1 allows manual server selection (contributed by Michael Muenz)
 * plugins: os-dyndns 1.1 fix for using apex domains with CloudFlare DDNS (contributed by Charles Ulrich)
 * plugins: os-frr 1.6 adds OSPF key ID and default route metric, BGP router ID, etc. (contributed by Michael Muenz and Fabian Franz)
-* plugins: os-haproxy 2.13 `[2] <https://github.com/opnsense/plugins/pull/1090>`__  (contributed by Frank Wall)
+* plugins: os-haproxy 2.13 `[2] <https://github.com/yetitecnologia/plugins/pull/1090>`__  (contributed by Frank Wall)
 * plugins: os-ntopng fixes HTTPS setup permission
 * plugins: os-openconnect 1.3.2 adds non-inter option, groups and client certificates, etc. (contributed by Diego Rivera and Michael Muenz)
-* plugins: os-postfix 1.8 `[3] <https://github.com/opnsense/plugins/blob/master/mail/postfix/pkg-descr>`__  (contributed by Michael Muenz)
+* plugins: os-postfix 1.8 `[3] <https://github.com/yetitecnologia/plugins/blob/master/mail/postfix/pkg-descr>`__  (contributed by Michael Muenz)
 * plugins: os-theme-cicada 1.12 (contributed by Team Rebellion)
 * plugins: os-theme-tukan 1.11 (contributed by Team Rebellion)
 * plugins: os-upnp 1.3 allows up to 8 user permissions
@@ -228,7 +228,7 @@ Here are the full patch notes:
 * plugins: os-freeradius 1.8.3 makes use of certificates clearer (contributed by Michael Muenz)
 * plugins: os-haproxy 2.12 HTTP/2 support, http-request before use_backend (contributed by Frank Wall, Mathias Aerts)
 * plugins: os-net-snmp 1.3 mark device as L3 enabled via SysServices (contributed by Michael Muenz)
-* plugins: os-nginx 1.5 with lots of new features `[1] <https://github.com/opnsense/plugins/blob/master/www/nginx/pkg-descr>`__  (contributed by Fabian Franz, Carlos Cesario, Julio Cesar Camargo, fzoske)
+* plugins: os-nginx 1.5 with lots of new features `[1] <https://github.com/yetitecnologia/plugins/blob/master/www/nginx/pkg-descr>`__  (contributed by Fabian Franz, Carlos Cesario, Julio Cesar Camargo, fzoske)
 * plugins: os-nut 1.4 adds listen directive and more flexible arguments (contributed by Michael Muenz)
 * plugins: os-postfix 1.7 adds address rewriting, sender/recipient BCC and domain masquerading (contributed by Michael Muenz)
 * plugins: os-theme-cicada 1.11 (contributed by Team Rebellion)
@@ -298,7 +298,7 @@ Here are the full patch notes:
 * rc: make it more obvious in /boot/loader.conf that system tunables work as well
 * ui: sidebar performance optimisation (contributed by Team Rebellion)
 * ui: vertically center current menu item on visible screen when height is too small
-* plugins: os-haproxy 2.10 `[1] <https://github.com/opnsense/plugins/pull/960>`__  `[2] <https://github.com/opnsense/plugins/pull/970>`__  `[3] <https://github.com/opnsense/plugins/pull/1003>`__  (contributed by Frank Wall)
+* plugins: os-haproxy 2.10 `[1] <https://github.com/yetitecnologia/plugins/pull/960>`__  `[2] <https://github.com/yetitecnologia/plugins/pull/970>`__  `[3] <https://github.com/yetitecnologia/plugins/pull/1003>`__  (contributed by Frank Wall)
 * plugins: os-igmp-proxy forces reinstall due to missing core function
 * plugins: os-ntopng 1.1 adds HTTPS support (contributed by Michael Muenz)
 * plugins: os-nut fix for config file generation (contributed by Michael Muenz)
@@ -306,7 +306,7 @@ Here are the full patch notes:
 * plugins: os-telegraf 1.7.2 adds validation messages to tags (contributed by Michael Muenz)
 * plugins: os-theme-cicada 1.9 (contributed by Team Rebellion)
 * plugins: os-upnp removes unused function
-* plugins: os-zabbix-agent 1.4 `[4] <https://github.com/opnsense/plugins/pull/998>`__  (contributed by Frank Wall)
+* plugins: os-zabbix-agent 1.4 `[4] <https://github.com/yetitecnologia/plugins/pull/998>`__  (contributed by Frank Wall)
 * ports: cyrus-sasl 2.1.27 `[5] <https://www.cyrusimap.org/sasl/sasl/release-notes/2.1/index.html>`__ 
 * ports: lighttpd 1.4.51 `[6] <https://www.lighttpd.net/2018/10/14/1.4.51/>`__ 
 * ports: openssh 7.9p1 `[7] <https://www.openssh.com/txt/release-7.9>`__ 
@@ -493,7 +493,7 @@ Here are the full patch notes:
 * plugins: os-collectd 1.2 makes hostname override optional (contributed by Michael Muenz)
 * plugins: os-dyndns 1.10 adds CloudFlare IPv6 support (contributed by Charles Ulrich)
 * plugins: os-net-snmp 1.2 adds write access for users (contributed by Michael Muenz)
-* plugins: os-nginx 1.2 `[1] <https://github.com/opnsense/plugins/commit/6776a5a17>`__  (contributed by Fabian Franz)
+* plugins: os-nginx 1.2 `[1] <https://github.com/yetitecnologia/plugins/commit/6776a5a17>`__  (contributed by Fabian Franz)
 * plugins: os-ntopng hides interface selection under advanced (contributed by Michael Muenz)
 * plugins: os-openconnect allows uppercase usernames (contributed by Michael Muenz)
 * plugins: os-postfix 1.6 adds port field (contributed by Michael Muenz)
@@ -678,7 +678,7 @@ Here are the full patch notes:
 * ui: fix table headers in dialogs (contributed by Fabian Franz)
 * plugins: os-bind 1.1 adds 3 DNSBL providers (contributed by Michael Muenz)
 * plugins: os-freeradius 1.8.0 adds basic SQLite support (contributed by Michael Muenz)
-* plugins: os-haproxy 2.8 `[1] <https://github.com/opnsense/plugins/pull/772>`__  (contributed by Frank Wall)
+* plugins: os-haproxy 2.8 `[1] <https://github.com/yetitecnologia/plugins/pull/772>`__  (contributed by Frank Wall)
 * plugins: os-nginx 1.0 (contributed by Fabian Franz)
 * plugins: os-postfix 1.5 allow empty destination in transport (contributed by Michael Muenz)
 * plugins: os-telegraf 1.5.1 adds ElasticSearch output and disk ignore fix (contributed by Michael Muenz)

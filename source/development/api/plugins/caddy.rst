@@ -11,7 +11,7 @@ Caddy
     "``GET``","caddy","diagnostics","get",""
     "``POST``","caddy","diagnostics","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `Caddy.xml <https://github.com/opnsense/plugins/blob/master/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Caddy.xml <https://github.com/yetitecnologia/plugins/blob/master/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.xml>`__"
 
 .. csv-table:: Service (GeneralController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -20,7 +20,7 @@ Caddy
     "``GET``","caddy","general","get",""
     "``POST``","caddy","general","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `Caddy.xml <https://github.com/opnsense/plugins/blob/master/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Caddy.xml <https://github.com/yetitecnologia/plugins/blob/master/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.xml>`__"
 
 .. csv-table:: Resources (ReverseProxyController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -75,7 +75,7 @@ Caddy
     "``POST``","caddy","reverse_proxy","toggleReverseProxy","$uuid,$enabled=null"
     "``POST``","caddy","reverse_proxy","toggleSubdomain","$uuid,$enabled=null"
 
-    "``<<uses>>``", "", "", "", "*model* `Caddy.xml <https://github.com/opnsense/plugins/blob/master/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Caddy.xml <https://github.com/yetitecnologia/plugins/blob/master/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.xml>`__"
 
 .. csv-table:: Service (ServiceController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -88,4 +88,4 @@ Caddy
     "``POST``","caddy","service","stop",""
     "``GET``","caddy","service","validate",""
 
-    "``<<uses>>``", "", "", "", "*model* `Caddy.xml <https://github.com/opnsense/plugins/blob/master/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Caddy.xml <https://github.com/yetitecnologia/plugins/blob/master/www/caddy/src/opnsense/mvc/app/models/OPNsense/Caddy/Caddy.xml>`__"

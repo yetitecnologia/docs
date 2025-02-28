@@ -27,7 +27,7 @@ Crowdsec
     "``GET``","crowdsec","general","get",""
     "``POST``","crowdsec","general","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/opnsense/plugins/blob/master/security/crowdsec/src/opnsense/mvc/app/models/OPNsense/CrowdSec/General.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/yetitecnologia/plugins/blob/master/security/crowdsec/src/opnsense/mvc/app/models/OPNsense/CrowdSec/General.xml>`__"
 
 .. csv-table:: Resources (HubController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"

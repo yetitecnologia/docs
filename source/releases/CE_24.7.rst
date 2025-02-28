@@ -57,13 +57,13 @@ Here are the full patch notes:
 * mvc: restore support for JSON input data without configd callout in JsonKeyValueStoreField
 * ui: add classes to system history diff content so themes can override the defaults
 * ui: load CSV as text to prevent encoding issues in SimpleFileUploadDlg()
-* plugins: os-acme-client 4.7 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-caddy 1.8.0 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
-* plugins: os-freeradius 1.9.27 `[3] <https://github.com/opnsense/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
-* plugins: os-haproxy 4.4 `[4] <https://github.com/opnsense/plugins/blob/stable/24.7/net/haproxy/pkg-descr>`__ 
-* plugins: os-mdns-repeater 1.2 `[5] <https://github.com/opnsense/plugins/blob/stable/24.7/net/mdns-repeater/pkg-descr>`__ 
-* plugins: os-squid 1.1 `[6] <https://github.com/opnsense/plugins/blob/stable/24.7/www/squid/pkg-descr>`__ 
-* plugins: os-tailscale 1.1 `[7] <https://github.com/opnsense/plugins/blob/stable/24.7/security/tailscale/pkg-descr>`__ 
+* plugins: os-acme-client 4.7 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-caddy 1.8.0 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.27 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
+* plugins: os-haproxy 4.4 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/haproxy/pkg-descr>`__ 
+* plugins: os-mdns-repeater 1.2 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/mdns-repeater/pkg-descr>`__ 
+* plugins: os-squid 1.1 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/squid/pkg-descr>`__ 
+* plugins: os-tailscale 1.1 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/tailscale/pkg-descr>`__ 
 * plugins: os-theme-rebellion 1.9.2 (contributed by Team Rebellion)
 * src: if_ovpn: improve reconnect handling
 * src: iflib: set the NUMA domain in receive packet headers
@@ -125,12 +125,12 @@ Here are the full patch notes:
 * mvc: last batch of sessionClose() cleanups in controllers
 * mvc: call initialize() after authentication
 * mvc: normalize multiple slashes in paths
-* plugins: os-caddy 1.7.6 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
-* plugins: os-ddclient 1.26 `[3] <https://github.com/opnsense/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
-* plugins: os-nut 1.9 `[4] <https://github.com/opnsense/plugins/blob/stable/24.7/sysutils/nut/pkg-descr>`__ 
-* plugins: os-qemu-guest-agent 1.3 `[5] <https://github.com/opnsense/plugins/blob/stable/24.7/emulators/qemu-guest-agent/pkg-descr>`__ 
+* plugins: os-caddy 1.7.6 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-ddclient 1.26 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-nut 1.9 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/sysutils/nut/pkg-descr>`__ 
+* plugins: os-qemu-guest-agent 1.3 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/emulators/qemu-guest-agent/pkg-descr>`__ 
 * plugins: os-tailscale 1.0 (contributed by Sheridan Computers)
-* plugins: os-telegraf 1.12.12 `[6] <https://github.com/opnsense/plugins/blob/stable/24.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.12 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net-mgmt/telegraf/pkg-descr>`__ 
 * ports: monit 5.34.3 `[7] <https://mmonit.com/monit/changes/>`__ 
 * ports: suricata 7.0.8 `[8] <https://suricata.io/2024/12/12/suricata-7-0-8-released/>`__ 
 
@@ -189,8 +189,8 @@ Here are the full patch notes:
 * mvc: cleanup in ApiMutableServiceControllerBase
 * mvc: fix hint display for "0"
 * ui: restore right tab border in standard theme
-* plugins: os-caddy 1.7.5 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
-* plugins: os-debug 1.7 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/devel/debug/pkg-descr>`__ 
+* plugins: os-caddy 1.7.5 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-debug 1.7 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/devel/debug/pkg-descr>`__ 
 * src: atf/kyua: ship regression tests runtime support
 * src: if_bridge: mask MEXTPG if some members do not support it
 * src: if_tuntap: enable MEXTPG support
@@ -266,7 +266,7 @@ Here are the full patch notes:
 * mvc: remove obsolete sessionClose() use in Base, Firmware, Unbound and WireGuard controllers
 * plugins: os-debug 1.6
 * plugins: os-ndproxy 1.0 adds an IPv6 Neighbour Discovery proxy
-* plugins: os-wazuh-agent 1.2 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/security/wazuh-agent/pkg-descr>`__ 
+* plugins: os-wazuh-agent 1.2 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/wazuh-agent/pkg-descr>`__ 
 * ports: py-duckdb 1.1.3 `[2] <https://github.com/duckdb/duckdb/releases/tag/v1.1.3>`__ 
 
 A hotfix release was issued as 24.7.9_1:
@@ -304,8 +304,8 @@ Here are the full patch notes:
 * isc-dhcp: safeguard output type for json_decode() in leases page
 * unbound: allow RFC 2181 compatible names in overrides
 * mvc: fix UpdateOnlyTextField incompatibility with DependConstraint (contributed by kumy)
-* plugins: os-bind 1.33 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/dns/bind/pkg-descr>`__ 
-* plugins: os-caddy 1.7.4 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-bind 1.33 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/dns/bind/pkg-descr>`__ 
+* plugins: os-caddy 1.7.4 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
 * plugins: os-etpro-telemetry lowers log level of collection invoke (contributed by doktornotor)
 * plugins: os-iperf fixes JS TypeError when parsing result (contributed by Leo Huang)
 * plugins: os-tinc removes "pipes" Python module dependency (contributed by andrewhotlab)
@@ -362,14 +362,14 @@ Here are the full patch notes:
 * mvc: extend sanity checks in isIPInCIDR()
 * ui: fix tree view style targeting elements outside this view
 * plugins: enforce defaults on devices
-* plugins: os-caddy 1.7.3 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
-* plugins: os-ddclient 1.25 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
-* plugins: os-freeradius 1.9.26 `[3] <https://github.com/opnsense/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
-* plugins: os-frr 1.42 `[4] <https://github.com/opnsense/plugins/blob/stable/24.7/net/frr/pkg-descr>`__ 
-* plugins: os-lldpd 1.2 `[5] <https://github.com/opnsense/plugins/blob/stable/24.7/net-mgmt/lldpd/pkg-descr>`__ 
-* plugins: os-net-snmp 1.6 `[6] <https://github.com/opnsense/plugins/blob/stable/24.7/net-mgmt/net-snmp/pkg-descr>`__ 
-* plugins: os-upnp 1.7 `[7] <https://github.com/opnsense/plugins/blob/stable/24.7/net/upnp/pkg-descr>`__ 
-* plugins: os-wazuh-agent 1.1 `[8] <https://github.com/opnsense/plugins/blob/stable/24.7/security/wazuh-agent/pkg-descr>`__ 
+* plugins: os-caddy 1.7.3 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-ddclient 1.25 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.26 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
+* plugins: os-frr 1.42 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/frr/pkg-descr>`__ 
+* plugins: os-lldpd 1.2 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net-mgmt/lldpd/pkg-descr>`__ 
+* plugins: os-net-snmp 1.6 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net-mgmt/net-snmp/pkg-descr>`__ 
+* plugins: os-upnp 1.7 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/upnp/pkg-descr>`__ 
+* plugins: os-wazuh-agent 1.1 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/wazuh-agent/pkg-descr>`__ 
 * ports: monit 5.34.2 `[9] <https://mmonit.com/monit/changes/>`__ 
 * ports: nss 3.105 `[10] <https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_105.html>`__ 
 * ports: openssh 9.9.p1 `[11] <https://www.openssh.com/txt/release-9.9>`__ 
@@ -429,9 +429,9 @@ Here are the full patch notes:
 * openvpn: push "data-ciphers-fallback" in client export when configured to align with legacy setup
 * unbound: port to newwanip_map / plugins_interface_map()
 * ui: remove bold text from tab headers for consistency
-* plugins: os-acme-client 4.6 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-caddy 1.7.2 `[3] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
-* plugins: os-frr 1.41 `[4] <https://github.com/opnsense/plugins/blob/stable/24.7/net/frr/pkg-descr>`__ 
+* plugins: os-acme-client 4.6 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-caddy 1.7.2 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-frr 1.41 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/frr/pkg-descr>`__ 
 * plugins: os-smart 2.3 adds new dashboard widget (contributed by Francisco Dimattia)
 * src: pf: revert part of 39282ef3 to properly log the drop due to state limits
 * src: pflog: pass the action to pflog directly
@@ -505,7 +505,7 @@ Here are the full patch notes:
 * wireguard: convert to vpn_map event invoke
 * ui: refine cookie policies and make them explicit
 * plugins: add plugins_argument_map() helper
-* plugins: os-caddy 1.7.1 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-caddy 1.7.1 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
 * src: bhyve: improve input validation in pci_xhci `[2] <https://www.freebsd.org/security/advisories/FreeBSD-SA-24:15.bhyve.asc>`__ 
 * src: libnv: correct the calculation of the size of the structure `[3] <https://www.freebsd.org/security/advisories/FreeBSD-SA-24:16.libnv.asc>`__ 
 * src: ifnet: Remove if_getamcount()
@@ -588,7 +588,7 @@ Here are the full patch notes:
 * wireguard: add close-on-exec flag to service lock file
 * ui: allow style tag on headers
 * plugins: os-helloworld 1.4
-* plugins: os-caddy 1.7.0 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-caddy 1.7.0 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
 * src: revert FreeBSD-SA-24:05.pf until further notice to restore proper IPv6 behaviour `[2] <https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=280701>`__ 
 * src: agp: Set the driver-specific field correctly
 * src: cron(8) / periodic(8) session login `[3] <https://www.freebsd.org/security/advisories/FreeBSD-EN-24:15.calendar.asc>`__ 
@@ -652,11 +652,11 @@ Here are the full patch notes:
 * wireguard: support CARP VHID reuse on different interfaces
 * mvc: when a hint is provided, also show them for selectpickers
 * rc: fix banner HTTPS fingerprint
-* plugins: os-ddclient 1.24 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-ddclient 1.24 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
 * plugins: os-theme-advanced 1.0 based on AdvancedTomato (contributed by Jaka Prašnikar)
 * plugins: os-theme-cicada 1.38 (contributed by Team Rebellion)
 * plugins: os-theme-vicuna 1.48 (contributed by Team Rebellion)
-* plugins: os-upnp 1.6 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/net/upnp/pkg-descr>`__ 
+* plugins: os-upnp 1.6 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/upnp/pkg-descr>`__ 
 * plugins: os-wol 2.5 adds widget for new dashboard (contributed by Michał Brzeziński)
 * src: pf: fully annotated patch of disabling ND state tracking and issues for ICMPv6 `[3] <https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=280701>`__ 
 * src: u3g: add SIERRA AC340U
@@ -722,10 +722,10 @@ Here are the full patch notes:
 * mvc: FileObject write() should sync by default
 * rc: export default ZPOOL_IMPORT_PATH
 * ui: sidebar submenu expand fix (contributed by Team Rebellion)
-* plugins: os-caddy 1.6.3 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-caddy 1.6.3 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
 * plugins: os-cpu-microcode-amd 1.0
 * plugins: os-cpu-microcode-intel 1.0
-* plugins: os-freeradius 1.9.25 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.25 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
 * plugins: os-intrusion-detection-content-snort-vrt 1.2 switch to newer ruleset snapshot (contributed by Jim McKibben)
 * plugins: os-theme-tukan 1.28 (contributed by Dr. Uwe Meyer-Gruhl)
 * src: axgbe: implement ifdi_i2c_req for diagnostics information
@@ -800,10 +800,10 @@ Here are the full patch notes:
 * openvpn: add "float" option to instances (contributed by Christian Kohlstedde)
 * backend: patch -6 address support into pluginctl
 * mvc: fix API endpoint sending data without giving the Response object the chance to flush its headers
-* plugins: os-acme-client 4.5 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-apcupsd 1.2 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/sysutils/apcupsd/pkg-descr>`__ 
-* plugins: os-caddy 1.6.2 `[3] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
-* plugins: os-ddclient 1.23 `[4] <https://github.com/opnsense/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-acme-client 4.5 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-apcupsd 1.2 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/sysutils/apcupsd/pkg-descr>`__ 
+* plugins: os-caddy 1.6.2 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-ddclient 1.23 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/dns/ddclient/pkg-descr>`__ 
 * plugins: os-theme-rebellion 1.9.1 fixes more compatibility issues with new dashboard (contributed by Team Rebellion)
 * src: pf incorrectly matches different ICMPv6 states in the state table `[5] <https://www.freebsd.org/security/advisories/FreeBSD-SA-24:05.pf.asc>`__ 
 * src: ktrace(2) fails to detach when executing a setuid binary `[6] <https://www.freebsd.org/security/advisories/FreeBSD-SA-24:06.ktrace.asc>`__ 
@@ -813,7 +813,7 @@ Here are the full patch notes:
 * src: mcast: fix leaked igmp packets on multicast cleanup
 * src: wg: change dhost to something other than a broadcast address (contributed by Sunny Valley Networks)
 * ports: curl 8.9.1 `[8] <https://curl.se/changes.html#8_9_1>`__ 
-* ports: dhcrelay 0.6 `[9] <https://github.com/opnsense/dhcrelay/issues/2>`__ 
+* ports: dhcrelay 0.6 `[9] <https://github.com/yetitecnologia/dhcrelay/issues/2>`__ 
 * ports: kea 2.6.1 `[10] <https://downloads.isc.org/isc/kea/2.6.1/Kea-2.6.1-ReleaseNotes.txt>`__ 
 * ports: nss 3.102 `[11] <https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_102.html>`__ 
 * ports: php 8.2.22 `[12] <https://www.php.net/ChangeLog-8.php#8.2.22>`__ 
@@ -898,12 +898,12 @@ Here are the full changes against version 24.1.10:
 * mvc: improve container field cloning
 * mvc: remove obsolete getParams() usage in ApiControllerBase
 * mvc: hook default index action in API handler
-* plugins: os-acme-client 4.4 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-caddy 1.6.1 `[3] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-acme-client 4.4 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-caddy 1.6.1 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
 * plugins: os-dec-hw 1.1 replaces the dashboard widget
 * plugins: os-etpro-telemetry 1.7 replaces dashboard widget
-* plugins: os-freeradius 1.29.4 `[4] <https://github.com/opnsense/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
-* plugins: os-nginx 1.34 `[5] <https://github.com/opnsense/plugins/blob/stable/24.7/www/nginx/pkg-descr>`__ 
+* plugins: os-freeradius 1.29.4 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/net/freeradius/pkg-descr>`__ 
+* plugins: os-nginx 1.34 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/nginx/pkg-descr>`__ 
 * plugins: os-theme-cicada 1.37 fixes dropdown element style (contributed by Team Rebellion)
 * plugins: os-theme-vicuna 1.47 fixes dropdown element style (contributed by Team Rebellion)
 * src: FreeBSD 14.1-RELEASE `[6] <https://www.freebsd.org/releases/14.1R/relnotes/>`__ 
@@ -996,9 +996,9 @@ Here are the full changes against version 24.7-RC1:
 * mvc: remove obsolete getParams() usage in ApiControllerBase
 * mvc: hook default index action in API handler
 * src: assorted backports from FreeBSD stable/14 branch
-* plugins: os-caddy 1.6.1 `[2] <https://github.com/opnsense/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
+* plugins: os-caddy 1.6.1 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/caddy/pkg-descr>`__ 
 * plugins: os-dec-hw 1.1 replaces the dashboard widget
-* plugins: os-nginx 1.34 `[3] <https://github.com/opnsense/plugins/blob/stable/24.7/www/nginx/pkg-descr>`__ 
+* plugins: os-nginx 1.34 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/www/nginx/pkg-descr>`__ 
 * plugins: os-theme-cicada 1.37 fixes dropdown element style (contributed by Team Rebellion)
 * plugins: os-theme-vicuna 1.47 fixes dropdown element style (contributed by Team Rebellion)
 
@@ -1088,7 +1088,7 @@ Here are the full changes against version 24.1.10:
 * mvc: replaced most of the Phalcon MVC use with a native band compatible implementation
 * mvc: improve searchRecordsetBase() filtering capabilities
 * mvc: improve container field cloning
-* plugins: os-acme-client 4.4 `[1] <https://github.com/opnsense/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-acme-client 4.4 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/24.7/security/acme-client/pkg-descr>`__ 
 * plugins: os-etpro-telemetry 1.7 replaces dashboard widget
 * src: FreeBSD 14.1-RELEASE `[2] <https://www.freebsd.org/releases/14.1R/relnotes/>`__ 
 * ports: phalcon 5.8.0 `[3] <https://github.com/phalcon/cphalcon/releases/tag/v5.8.0>`__ 
@@ -1111,7 +1111,7 @@ development state.  This is not meant for production use but all plugins
 are provided and future updates of installations based on these images
 will be possible.
 
-https://pkg.opnsense.org/releases/24.7/
+https://yeti.tec.br/yetisense/releases/24.7/
 
 There is a bit more work to be done yet most of the milestones have
 already been reached.  If you have a test deployment or would like to

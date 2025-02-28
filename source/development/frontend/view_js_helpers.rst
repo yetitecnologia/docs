@@ -12,7 +12,7 @@ Layout
 --------------------------
 
 To ease reading of volt templates, we recommend using a fixed layout when creating templates.
-The base of our rendered page always contains the standard `layout <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/views/layouts/default.volt>`__
+The base of our rendered page always contains the standard `layout <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/views/layouts/default.volt>`__
 which is hooked via our standard frontend controller.
 
 Below you will find the sections and their order, which we will describe briefly.

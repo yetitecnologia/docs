@@ -21,17 +21,17 @@ Structure
    :name: structure-source-ports-core-tools
 
 The structure is pretty much FreeBSD: we have a `source
-code <https://github.com/opnsense/src>`__ repository and a `ports
-tree <https://github.com/opnsense/ports>`__. Historically, we also have
-a `core code <https://github.com/opnsense/core>`__ and `tools
-repository <https://github.com/opnsense/tools>`__. The tools repository
+code <https://github.com/yetitecnologia/src>`__ repository and a `ports
+tree <https://github.com/yetitecnologia/ports>`__. Historically, we also have
+a `core code <https://github.com/yetitecnologia/core>`__ and `tools
+repository <https://github.com/yetitecnologia/tools>`__. The tools repository
 is project shell code gluing all repositories together, producing final
 images, while the core is the important GUI and system configuration
 bits.
 
 .. Note::
 
-  As of 16.1 there is also plugin support, the source repository is `plugins tree <https://github.com/opnsense/plugins>`__ .
+  As of 16.1 there is also plugin support, the source repository is `plugins tree <https://github.com/yetitecnologia/plugins>`__ .
   Plugins are a modular way of easily extending the existing system.
 
 .. rubric:: Why core is not a part of source
@@ -79,7 +79,7 @@ you have a FreeBSD box you will always be able to produce your own images if you
 desire–without spinning up extra machines, jails or virtual machines.
 
 Here are the `build instructions for
-OPNsense <https://github.com/opnsense/tools/blob/master/README.md>`__.
+OPNsense <https://github.com/yetitecnologia/tools/blob/master/README.md>`__.
 
 .. TIP::
 
@@ -87,7 +87,7 @@ OPNsense <https://github.com/opnsense/tools/blob/master/README.md>`__.
   reinstall a running system in place for a thorough factory reset or to restore
   consistency of all the OPNsense files. It can also wipe the configuration
   directory, but won't do that by default.
-  The `opnsense-bootstrap <https://github.com/opnsense/update>`__ script is
+  The `opnsense-bootstrap <https://github.com/yetitecnologia/update>`__ script is
   particularly useful if you want to convert a hosted FreeBSD system to OPNsense.
 
 -------------------------------
@@ -133,7 +133,7 @@ user do the following:
 ::
 
     # cd
-    # git clone https://github.com/opnsense/core
+    # git clone https://github.com/yetitecnologia/core
 
 Once you have the repository, you switch it live using:
 

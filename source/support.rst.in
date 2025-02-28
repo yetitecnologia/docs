@@ -76,7 +76,7 @@ To receive community support, the following options are available:
 * Start searching this documentation & wiki
 * The `OPNsense forum <https://forum.opnsense.org>`__
 * Ask online users on `IRC Libera Chat <https://libera.chat/>`__ #opnsense
-* Open a GitHub ticket (`core <https://github.com/opnsense/core/issues>`__, `plugins <https://github.com/opnsense/plugins/issues>`__) using one of our templates
+* Open a GitHub ticket (`core <https://github.com/yetitecnologia/core/issues>`__, `plugins <https://github.com/yetitecnologia/plugins/issues>`__) using one of our templates
 
 .. Note::
 

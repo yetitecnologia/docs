@@ -47,7 +47,7 @@ be available this week with a follow-up RC2 in the following week.
 
 Here are the full patch notes:
 
-* system: change ZFS transaction group defaults to avoid excessive disk wear `[1] <https://github.com/opnsense/core/commit/269b9fbaf>`__ 
+* system: change ZFS transaction group defaults to avoid excessive disk wear `[1] <https://github.com/yetitecnologia/core/commit/269b9fbaf>`__ 
 * firewall: validate if GeoIP and BGP ASN targets contain at least 1 kb of data before assuming timestamp is correct
 * firmware: automatically install os-squid plugin install when web proxy is enabled before major upgrade
 * firmware: refactor export and scrub Unbound DNS database before major upgrade
@@ -61,10 +61,10 @@ Here are the full patch notes:
 * ui: fix the missing dialog padding in some modals
 * ui: set a default data-size for increased readability in selectpickers
 * ui: show tooltip when grid td content does not fit
-* plugins: os-bind 1.29 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
-* plugins: os-ddclient 1.20 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
-* plugins: os-frr 1.38 `[4] <https://github.com/opnsense/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
-* plugins: os-node_exporter 1.2 `[5] <https://github.com/opnsense/plugins/blob/stable/23.7/sysutils/node_exporter/pkg-descr>`__ 
+* plugins: os-bind 1.29 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
+* plugins: os-ddclient 1.20 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-frr 1.38 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
+* plugins: os-node_exporter 1.2 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/sysutils/node_exporter/pkg-descr>`__ 
 * plugins: os-sunnyvalley 1.4 switches to new repository layout
 * ports: py-netaddr 0.10.1 `[6] <https://netaddr.readthedocs.io/en/latest/changes.html#release-0-10-1>`__ 
 * ports: sudo 1.9.15p5 `[7] <https://www.sudo.ws/stable.html#1.9.15p5>`__ 
@@ -114,9 +114,9 @@ Here are the full patch notes:
 * openvpn: consider clients missing CARP VHID as disabled
 * unbound: replace JustDomains with Firebog blocklists (contributed by Amy Nagle)
 * unbound: update root hints
-* plugins: os-acme-client 3.20 `[1] <https://github.com/opnsense/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-ddclient 1.19 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
-* plugins: os-wireguard 2.6 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-acme-client 3.20 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-ddclient 1.19 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-wireguard 2.6 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
 * ports: curl 8.5.0 `[4] <https://curl.se/changes.html#8_5_0>`__ 
 * ports: nss 3.95 `[5] <https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_95.html>`__ 
 * ports: php 8.2.14 `[6] <https://www.php.net/ChangeLog-8.php#8.2.14>`__ 
@@ -154,10 +154,10 @@ Here are the full patch notes:
 * unbound: use tls-system-cert instead of tls-cert-bundle
 * web proxy: fix setting unknown language directory
 * ui: upgrade jqTree to version 1.7.5
-* plugins: os-ddclient 1.18 `[1] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-ddclient 1.18 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
 * plugins: os-dec-hw 1.0 is a Deciso hardware specific dashboard widget
 * plugins: os-net-snmp fix for directory setup (contributed by doktornotor)
-* plugins: os-telegraf 1.12.10 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.10 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
 * plugins: os-upnp now reloads on newwanip event
 * plugins: os-wireguard fix for missing firewall reload
 * plugins: os-wireguard-go fix for device registration
@@ -245,8 +245,8 @@ Here are the full patch notes:
 * mvc: split tree-view template and javascript and hook via controllers
 * ui: upgrade bootstrap-select to v1.13.18
 * ui: improve saveFormToEndpoint() UX
-* plugins: os-ddclient 1.17 `[1] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
-* plugins: os-frr 1.37 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
+* plugins: os-ddclient 1.17 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-frr 1.37 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
 * plugins: os-squid adds a meta package for web proxy core removal in 24.1
 * ports: openvpn 2.6.8 `[3] <https://community.openvpn.net/openvpn/wiki/ChangesInOpenvpn26#Changesin2.6.8>`__ 
 * ports: sqlite 3.44.0 `[4] <https://sqlite.org/releaselog/3_44_0.html>`__ 
@@ -302,9 +302,9 @@ Here are the full patch notes:
 * mvc: config should be locked before calling checkAndThrowSafeDelete()
 * ui: prevent form submit for MVC pages
 * ui: improve default modal padding
-* plugins: os-bind 1.28 `[1] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
-* plugins: os-openconnect 1.4.5 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/security/openconnect/pkg-descr>`__ 
-* plugins: os-wireguard 2.5 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-bind 1.28 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
+* plugins: os-openconnect 1.4.5 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/security/openconnect/pkg-descr>`__ 
+* plugins: os-wireguard 2.5 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
 * src: pfctl: fix incorrect mask on dynamic address
 * src: libpfctl: assorted improvements
 * src: msdosfs: zero partially valid extended cluster `[4] <https://www.freebsd.org/security/advisories/FreeBSD-SA-23:12.msdosfs.asc>`__ 
@@ -399,11 +399,11 @@ Here are the full patch notes:
 * mvc: style update in diagnostics, firewall, intrusion detection and ipsec models
 * ui: fix the styling of the base form button when overriding the label
 * ui: trigger change message on toggle and delete
-* plugins: os-nginx 1.32.2 `[1] <https://github.com/opnsense/plugins/blob/stable/23.7/www/nginx/pkg-descr>`__ 
+* plugins: os-nginx 1.32.2 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/www/nginx/pkg-descr>`__ 
 * plugins: os-radsecproxy fixes for stale rc script / pidfile issues
-* plugins: os-rspamd 1.13 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/mail/rspamd/pkg-descr>`__ 
+* plugins: os-rspamd 1.13 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/mail/rspamd/pkg-descr>`__ 
 * plugins: os-theme-ciada fix for previous regression
-* plugins: os-wireguard 2.4 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-wireguard 2.4 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
 * src: pf: enable the syncookie feature for IPv6
 * src: pflog: log packet dropped by default rule with drop
 * src: re: add Realtek Killer Ethernet E2600 IDs
@@ -490,11 +490,11 @@ Here are the full patch notes:
 * mvc: propagate isFieldChanged() from connected children in ArrayField
 * ui: remove the bootstrap-select version from the provided file in the default theme
 * plugins: remove the bootstrap-select version from the provided file in all themes
-* plugins: os-crowdsec 1.0.7 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/security/crowdsec/pkg-descr>`__ 
+* plugins: os-crowdsec 1.0.7 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/security/crowdsec/pkg-descr>`__ 
 * plugins: os-smart reverts the use of smartctl to gather disks
-* plugins: os-telegraf 1.12.9 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.9 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
 * plugins: os-theme-rebellion 1.8.9 fixes Unbound DNS reporting page
-* plugins: os-wireguard 2.3 `[4] <https://github.com/opnsense/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-wireguard 2.3 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
 * ports: php 8.2.11 `[5] <https://www.php.net/ChangeLog-8.php#8.2.11>`__ 
 * ports: syslog-ng 4.4.0 `[6] <https://github.com/syslog-ng/syslog-ng/releases/tag/syslog-ng-4.4.0>`__ 
 
@@ -617,9 +617,9 @@ Here are the full patch notes:
 * mvc: remove "non-functional" hints from form input elements
 * mvc: uppercase default label in BaseListField is more likely
 * ui: add bytes format to standard formatters list
-* plugins: os-ddclient 1.16 `[1] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
-* plugins: os-frr 1.36 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
-* plugins: os-wireguard 2.1 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-ddclient 1.16 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-frr 1.36 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
+* plugins: os-wireguard 2.1 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
 * plugins: os-tinc 1.7 adds support for "StrictSubnets" variable (contributed by andrewhotlab)
 * lang: update translations and add Polish
 * src: bring back netmap tun(4) ethernet header emulation (contributed by Sunny Valley Networks)
@@ -685,8 +685,8 @@ Here are the full patch notes:
 * mvc: extend PortField to optionally allow port type aliases
 * lang: update all languages and add Korean
 * plugins: os-firewall 1.4 adds port alias support
-* plugins: os-frr 1.35 `[1] <https://github.com/opnsense/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
-* plugins: os-wireguard 2.0 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-frr 1.35 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
+* plugins: os-wireguard 2.0 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
 * ports: filterlog fix to prevent crash on default rule number -1
 
 
@@ -723,7 +723,7 @@ Here are the full patch notes:
 * openvpn: bring instances into server field
 * openvpn: fix separator for redirect-gateway attribute in instances and CSO
 * unbound: fixed configuration when custom blocks are used (contributed by Evgeny Grin)
-* plugins: os-ddclient 1.15 `[1] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-ddclient 1.15 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
 * plugins: os-iperf adds rubygem-rexml dependency (contributed by Hannah Kiekens)
 * plugins: os-relayd 2.7 now supports newer upstream release of relayd
 * plugins: os-wazuh-agent 1.0 `[2] <https://docs.opnsense.org/manual/wazuh-agent.html>`__ 
@@ -779,8 +779,8 @@ Here are the full patch notes:
 * unbound: migration of empty nodes failed from 23.1.11 to 23.7
 * unbound: fix regression when disabling first domain override
 * mvc: fix empty item selection issue in BaseListField
-* plugins: os-ddclient 1.14 `[1] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
-* plugins: os-acme-client 3.19 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-ddclient 1.14 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-acme-client 3.19 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
 * src: bhyve: fully reset the fwctl state machine if the guest requests a reset `[3] <https://www.freebsd.org/security/advisories/FreeBSD-SA-23:07.bhyve.asc>`__ 
 * src: frag6: avoid a possible integer overflow in fragment handling `[4] <https://www.freebsd.org/security/advisories/FreeBSD-SA-23:06.ipv6.asc>`__ 
 * src: amdtemp: Fix missing 49 degree offset on current EPYC CPUs
@@ -897,13 +897,13 @@ Here are the full patch notes against 23.1.11:
 * mvc: implement new Trust class usage in OpenVPN client export, captive portal and Syslog-ng
 * mvc: add generic static record definition for ArrayField
 * ui: introduce collapsible table headers for MVC forms
-* plugins: os-acme-client 3.18 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-bind 1.27 `[4] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
-* plugins: os-dnscrypt-proxy 1.14 `[5] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/dnscrypt-proxy/pkg-descr>`__ 
+* plugins: os-acme-client 3.18 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-bind 1.27 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
+* plugins: os-dnscrypt-proxy 1.14 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/dnscrypt-proxy/pkg-descr>`__ 
 * plugins: os-dyndns removed due to unmaintained code base
-* plugins: os-frr 1.34 `[6] <https://github.com/opnsense/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
+* plugins: os-frr 1.34 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
 * plugins: os-firewall 1.3 allows floating rules without interface set (contributed by Michael Muenz)
-* plugins: os-telegraf 1.12.8 `[7] <https://github.com/opnsense/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.8 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
 * plugins: os-zabbix62-agent removed due to Zabbix 6.2 EoL
 * plugins: os-zabbix62-proxy removed due to Zabbix 6.2 EoL
 * src: axgbe: enable RSF to prevent zero-length packets while in Netmap mode
@@ -1082,11 +1082,11 @@ Here are the full patch notes against 23.1.11:
 * mvc: implement new Trust class usage in OpenVPN client export, captive portal and Syslog-ng
 * mvc: add generic static record definition for ArrayField
 * ui: introduce collapsible table headers for MVC forms
-* plugins: os-acme-client 3.18 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-dnscrypt-proxy 1.14 `[4] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/dnscrypt-proxy/pkg-descr>`__ 
+* plugins: os-acme-client 3.18 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-dnscrypt-proxy 1.14 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/dnscrypt-proxy/pkg-descr>`__ 
 * plugins: os-dyndns removed due to unmaintained code base
-* plugins: os-frr 1.34 `[5] <https://github.com/opnsense/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
-* plugins: os-telegraf 1.12.8 `[6] <https://github.com/opnsense/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-frr 1.34 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.8 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
 * plugins: os-zabbix62-agent removed due to Zabbix 6.2 EoL
 * plugins: os-zabbix62-proxy removed due to Zabbix 6.2 EoL
 * src: axgbe: enable RSF to prevent zero-length packets while in Netmap mode

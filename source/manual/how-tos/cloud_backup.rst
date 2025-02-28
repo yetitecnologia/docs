@@ -61,7 +61,7 @@ Setup Google API usage
 
 .. Warning::
 
-    Please note that Google changed how service accounts work, as a result, this functionality will be deprecated (`* <https://github.com/opnsense/core/issues/8343>`__)
+    Please note that Google changed how service accounts work, as a result, this functionality will be deprecated (`* <https://github.com/yetitecnologia/core/issues/8343>`__)
 
 
 The instructions below apply to a standard Google account. Some of the settings appear slightly differently for Google Workspace (formerly G Suite) accounts.

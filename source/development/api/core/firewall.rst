@@ -39,7 +39,7 @@ as a reference and testbed. There's no relation to any of the rules being manage
     "``POST``","firewall","alias","setItem","$uuid"
     "``POST``","firewall","alias","toggleItem","$uuid,$enabled=null"
 
-    "``<<uses>>``", "", "", "", "*model* `Alias.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Firewall/Alias.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Alias.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Firewall/Alias.xml>`__"
 
 .. csv-table:: Resources (AliasUtilController.php)  -- extends : ApiControllerBase 
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -65,7 +65,7 @@ as a reference and testbed. There's no relation to any of the rules being manage
     "``POST``","firewall","category","set",""
     "``POST``","firewall","category","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Category.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Firewall/Category.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Category.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Firewall/Category.xml>`__"
 
 .. csv-table:: Abstract [non-callable] (FilterBaseController.php) 
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -80,7 +80,7 @@ as a reference and testbed. There's no relation to any of the rules being manage
     "``POST``","firewall","filter_base","savepoint",""
     "``POST``","firewall","filter_base","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `Filter.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Filter.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Firewall/Filter.xml>`__"
 
 .. csv-table:: Resources (FilterController.php)  -- extends : FilterBaseController 
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -112,7 +112,7 @@ as a reference and testbed. There's no relation to any of the rules being manage
     "``POST``","firewall","group","set",""
     "``POST``","firewall","group","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Group.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Firewall/Group.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Group.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Firewall/Group.xml>`__"
 
 .. csv-table:: Resources (NptController.php)  -- extends : FilterBaseController 
    :header: "Method", "Module", "Controller", "Command", "Parameters"

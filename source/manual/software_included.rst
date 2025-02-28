@@ -60,7 +60,7 @@ If, for example you would like to install the gnu `nano <https://www.nano-editor
 
     OPNsense® is a firewall distribution, we aim to keep our footprint as small as possible. This means that we don't build
     all the software available in the world. If you need a specific package for your use-case, you could always ask via
-    a support ticket on `GitHub <https://github.com/opnsense/tools/issues>`__, but note that packages not used by our core system or
+    a support ticket on `GitHub <https://github.com/yetitecnologia/tools/issues>`__, but note that packages not used by our core system or
     a supported plugin would not be guaranteed in the future (build contents may change over time).
 
 

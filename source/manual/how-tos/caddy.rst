@@ -20,7 +20,7 @@ It's the most advanced HTTPS server in the world.
 
 WWW: https://caddyserver.com/
 
-All available options and help-texts can be found on `Github <https://github.com/opnsense/plugins/tree/master/www/caddy/src/opnsense/mvc/app/controllers/OPNsense/Caddy/forms>`_
+All available options and help-texts can be found on `Github <https://github.com/yetitecnologia/plugins/tree/master/www/caddy/src/opnsense/mvc/app/controllers/OPNsense/Caddy/forms>`_
 
 
 ------------
@@ -213,7 +213,7 @@ Now, all anonymous connections have to authenticate with Basic Auth before acces
 Dynamic DNS
 -----------
 
-Supported Dynamic DNS Providers and requests for additions can be found `here <https://github.com/opnsense/plugins/issues/3872>`_.
+Supported Dynamic DNS Providers and requests for additions can be found `here <https://github.com/yetitecnologia/plugins/issues/3872>`_.
 
 .. Tip:: Read the full help text for guidance. It could also be necessary to check the selected provider module at `Caddy DNS <https://github.com/caddy-dns>`_ for further instructions. These modules are community maintained. When a module introduces issues that are not fixed it will be removed from this plugin.
 

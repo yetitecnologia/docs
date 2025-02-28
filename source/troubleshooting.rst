@@ -14,7 +14,7 @@ General issue workflow
 ...........................
 
 Before reporting issues, please make sure yours still exists on the latest version.
-We generally advice to check the existing `issues <https://github.com/opnsense/core/issues>`__ and our `forum <https://forum.opnsense.org/>`__
+We generally advice to check the existing `issues <https://github.com/yetitecnologia/core/issues>`__ and our `forum <https://forum.opnsense.org/>`__
 before reporting new ones.
 
 In case your issue was introduced after a (minor) upgrade, you can use `opnsense-revert <https://docs.opnsense.org/manual/opnsense_tools.html#opnsense-revert>`__

@@ -22,7 +22,7 @@ After opening the changelog, you will get an entry like this one:
 The changelog entries can be found at different places:
 
 * Forum: https://forum.opnsense.org/index.php?board=11.0
-* GitHub: https://github.com/opnsense/changelog/tree/master/community
+* GitHub: https://github.com/yetitecnologia/changelog/tree/master/community
 * Blog: https://opnsense.org/blog/
 
 Plugins

@@ -32,4 +32,4 @@ process a joyful experience.
 .. Seealso::
 
   To convert your FreeBSD hosted installation to OPNsense, see the OPNsense
-  bootstrap script on `OPNsense's update tools @ github <https://github.com/opnsense/update/>`__
+  bootstrap script on `OPNsense's update tools @ github <https://github.com/yetitecnologia/update/>`__

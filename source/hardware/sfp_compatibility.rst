@@ -14,7 +14,7 @@ that are verified to work with OPNsense® appliances.
 .. tip::
 
     If you are using an SFP(+)/SFP28 module on one of the OPNsense® appliances that is not listed below but is working
-    properly, consider submitting a Pull Request to `our documentation <https://github.com/opnsense/docs>`__ to extend the list.
+    properly, consider submitting a Pull Request to `our documentation <https://github.com/yetitecnologia/docs>`__ to extend the list.
     Any contribution is welcome!
 
 =====================================================================================================================

@@ -14,4 +14,4 @@ Proxyuseracl
     "``POST``","proxyuseracl","settings","setACL","$uuid"
     "``POST``","proxyuseracl","settings","updownACL","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `ProxyUserACL.xml <https://github.com/opnsense/plugins/blob/master/www/web-proxy-useracl/src/opnsense/mvc/app/models/OPNsense/ProxyUserACL/ProxyUserACL.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `ProxyUserACL.xml <https://github.com/yetitecnologia/plugins/blob/master/www/web-proxy-useracl/src/opnsense/mvc/app/models/OPNsense/ProxyUserACL/ProxyUserACL.xml>`__"

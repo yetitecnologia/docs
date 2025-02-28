@@ -106,7 +106,7 @@ Next use the supplied helper command to execute our action:
 Extending the Environment
 -----------------------------
 
-Configd's own configuration can be found in the `configd.conf <https://github.com/opnsense/core/blob/master/src/opnsense/service/conf/configd.conf>`__ file.
+Configd's own configuration can be found in the `configd.conf <https://github.com/yetitecnologia/core/blob/master/src/opnsense/service/conf/configd.conf>`__ file.
 In some cases it can be practical to extend the envrionment with additional settings for the configd actions to use.
 
 To add environment variables, create a new config file in the :code:`conf/configd.conf.d/` directory

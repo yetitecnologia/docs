@@ -53,7 +53,7 @@ knowledge on (basic) networking.
 Like many products and projects, ours grows over time, functionality extends and changes, which sometimes makes it difficult
 to find what you need for the version you're using. Although we try to keep our documentation up to date, sometimes text
 doesn't reflect reality anymore. If that's the case and you think you found an omission, don't hestitate to open
-a report using one of our templates on `GitHub <https://github.com/opnsense/docs/issues/new/choose>`__ or a pull request
+a report using one of our templates on `GitHub <https://github.com/yetitecnologia/docs/issues/new/choose>`__ or a pull request
 of course if you're able to.
 
 Always assume the text is intended for the latest version of our product, in time we might

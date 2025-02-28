@@ -54,12 +54,12 @@ Here are the full patch notes:
 * firmware: revoke 19.1 fingerprint
 * ipsec: add configurable dpdaction (contributed by Marcel Menzel)
 * mvc: BaseListField ignoring empty selected field
-* plugins: os-haproxy 2.20 `[1] <https://github.com/opnsense/plugins/pull/1646>`__ 
-* plugins: os-mail-backup 1.1 `[2] <https://github.com/opnsense/plugins/pull/1671>`__ 
+* plugins: os-haproxy 2.20 `[1] <https://github.com/yetitecnologia/plugins/pull/1646>`__ 
+* plugins: os-mail-backup 1.1 `[2] <https://github.com/yetitecnologia/plugins/pull/1671>`__ 
 * plugins: os-nrpe 1.0 (contributed by Michael Muenz)
 * plugins: os-theme-rebellion 1.8.3 (contributed by Team Rebellion)
-* plugins: os-vnstat 1.2 `[3] <https://github.com/opnsense/plugins/blob/master/net/vnstat/pkg-descr>`__ 
-* plugins: zabbix4-proxy 1.2 `[4] <https://github.com/opnsense/plugins/blob/master/net-mgmt/zabbix4-proxy/pkg-descr>`__ 
+* plugins: os-vnstat 1.2 `[3] <https://github.com/yetitecnologia/plugins/blob/master/net/vnstat/pkg-descr>`__ 
+* plugins: zabbix4-proxy 1.2 `[4] <https://github.com/yetitecnologia/plugins/blob/master/net-mgmt/zabbix4-proxy/pkg-descr>`__ 
 * ports: ca_root_nss 3.49.1
 * ports: curl 7.68.0 `[5] <https://curl.haxx.se/changes.html>`__ 
 * ports: isc-dhcp 4.4.2 `[6] <https://downloads.isc.org/isc/dhcp/4.4.2/dhcp-4.4.2-RELNOTES>`__ 
@@ -96,15 +96,15 @@ Here are the full patch notes:
 * dhcp: replace killbyname() usage which should not have killed both services
 * dhcp: auto-replace windows DUID dashes (contributed by Team Rebellion)
 * mvc: PSR12 code style updates
-* plugins: os-acme-client 1.29 `[2] <https://github.com/opnsense/plugins/pull/1638>`__ 
-* plugins: os-bind 1.12 `[3] <https://github.com/opnsense/plugins/blob/master/dns/bind/pkg-descr>`__ 
+* plugins: os-acme-client 1.29 `[2] <https://github.com/yetitecnologia/plugins/pull/1638>`__ 
+* plugins: os-bind 1.12 `[3] <https://github.com/yetitecnologia/plugins/blob/master/dns/bind/pkg-descr>`__ 
 * plugins: os-dyndns must use dyndns_failover_interface() to translate gateway group
-* plugins: os-frr 1.14 `[4] <https://github.com/opnsense/plugins/blob/master/net/frr/pkg-descr>`__ 
-* plugins: os-maltrail 1.3 `[5] <https://github.com/opnsense/plugins/blob/master/security/maltrail/pkg-descr>`__ 
-* plugins: os-nginx 1.17 `[6] <https://github.com/opnsense/plugins/blob/master/www/nginx/pkg-descr>`__ 
+* plugins: os-frr 1.14 `[4] <https://github.com/yetitecnologia/plugins/blob/master/net/frr/pkg-descr>`__ 
+* plugins: os-maltrail 1.3 `[5] <https://github.com/yetitecnologia/plugins/blob/master/security/maltrail/pkg-descr>`__ 
+* plugins: os-nginx 1.17 `[6] <https://github.com/yetitecnologia/plugins/blob/master/www/nginx/pkg-descr>`__ 
 * plugins: os-nut fixes validation and snmp-ups selection (contributed by Michael Muenz)
 * plugins: os-theme-cicada 1.24 (contributed by Team Rebellion)
-* plugins: os-zabbix4-proxy 1.1 `[7] <https://github.com/opnsense/plugins/blob/master/net-mgmt/zabbix4-proxy/pkg-descr>`__ 
+* plugins: os-zabbix4-proxy 1.1 `[7] <https://github.com/yetitecnologia/plugins/blob/master/net-mgmt/zabbix4-proxy/pkg-descr>`__ 
 * ports: openssh 8.1p1 `[8] <https://www.openssh.com/txt/release-8.1>`__ 
 * ports: openssl 1.0.2u `[9] <https://www.openssl.org/news/openssl-1.0.2-notes.html>`__ 
 * ports: php 7.2.26 `[10] <https://www.php.net/ChangeLog-7.php#7.2.26>`__ 
@@ -158,13 +158,13 @@ Here are the full patch notes:
 * mvc: added opt-in referential integrity check for models
 * mvc: countless PSR12 style updates
 * mvc: add "NetMaskAllowed" option to validate on single addresses in NetworkField
-* plugins: os-bind 1.11 `[1] <https://github.com/opnsense/plugins/blob/master/dns/bind/pkg-descr>`__ 
+* plugins: os-bind 1.11 `[1] <https://github.com/yetitecnologia/plugins/blob/master/dns/bind/pkg-descr>`__ 
 * plugins: os-dyndns 1.18 adds Linode support (contributed by Andrew Gunnerson)
-* plugins: os-freeradius 1.9.5 `[2] <https://github.com/opnsense/plugins/blob/master/net/freeradius/pkg-descr>`__ 
-* plugins: os-frr 1.13 `[3] <https://github.com/opnsense/plugins/blob/master/net/frr/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.5 `[2] <https://github.com/yetitecnologia/plugins/blob/master/net/freeradius/pkg-descr>`__ 
+* plugins: os-frr 1.13 `[3] <https://github.com/yetitecnologia/plugins/blob/master/net/frr/pkg-descr>`__ 
 * plugins: os-ftp-proxy style updates only
-* plugins: os-postfix 1.13 `[4] <https://github.com/opnsense/plugins/blob/master/mail/postfix/pkg-descr>`__ 
-* plugins: os-rspamd 1.9 `[5] <https://github.com/opnsense/plugins/blob/master/mail/rspamd/pkg-descr>`__ 
+* plugins: os-postfix 1.13 `[4] <https://github.com/yetitecnologia/plugins/blob/master/mail/postfix/pkg-descr>`__ 
+* plugins: os-rspamd 1.9 `[5] <https://github.com/yetitecnologia/plugins/blob/master/mail/rspamd/pkg-descr>`__ 
 * plugins: os-theme-cicada 1.23 (contributed by Team Rebellion)
 * plugins: os-theme-tukan 1.22 (contributed by Team Rebellion)
 * ports: ca_root_nss 3.48
@@ -205,11 +205,11 @@ Here are the full patch notes:
 * unbound: exit wrapper when process not running
 * web proxy: added check on SNI field checkbox (contributed by Northguy)
 * mvc: fix forceReload()
-* plugins: os-acme-client 1.28 `[1] <https://github.com/opnsense/plugins/pull/1565>`__ 
-* plugins: os-bind 1.10 `[2] <https://github.com/opnsense/plugins/blob/master/dns/bind/pkg-descr>`__ 
-* plugins: os-nginx 1.16 `[3] <https://github.com/opnsense/plugins/blob/master/www/nginx/pkg-descr>`__ 
-* plugins: os-nut 1.6 `[4] <https://github.com/opnsense/plugins/blob/master/sysutils/nut/pkg-descr>`__ 
-* plugins: os-postfix 1.12 `[5] <https://github.com/opnsense/plugins/blob/master/mail/postfix/pkg-descr>`__ 
+* plugins: os-acme-client 1.28 `[1] <https://github.com/yetitecnologia/plugins/pull/1565>`__ 
+* plugins: os-bind 1.10 `[2] <https://github.com/yetitecnologia/plugins/blob/master/dns/bind/pkg-descr>`__ 
+* plugins: os-nginx 1.16 `[3] <https://github.com/yetitecnologia/plugins/blob/master/www/nginx/pkg-descr>`__ 
+* plugins: os-nut 1.6 `[4] <https://github.com/yetitecnologia/plugins/blob/master/sysutils/nut/pkg-descr>`__ 
+* plugins: os-postfix 1.12 `[5] <https://github.com/yetitecnologia/plugins/blob/master/mail/postfix/pkg-descr>`__ 
 * src: fix machine check exception on page size change `[6] <https://www.freebsd.org/security/advisories/FreeBSD-SA-19:25.mcepsc.asc>`__ 
 * src: bump libc syslog line size to 8k
 * src: import tzdata 2019c `[7] <https://www.freebsd.org/security/advisories/FreeBSD-EN-19:18.tzdata.asc>`__ 
@@ -258,9 +258,9 @@ Here are the full patch notes:
 * openvpn: server wizard existing CA use and server cert check (contributed by johnaheadley)
 * backend: add run mode to pluginctl using JSON-based output
 * ui: fix tokenizer reorder on multiple saves, second try
-* plugins: os-acme-client 1.27 `[1] <https://github.com/opnsense/plugins/pull/1536>`__ 
-* plugins: os-bind 1.9 `[2] <https://github.com/opnsense/plugins/blob/stable/20.1/dns/bind/pkg-descr>`__ 
-* plugins: os-nginx 1.15 `[3] <https://github.com/opnsense/plugins/blob/stable/20.1/www/nginx/pkg-descr>`__ 
+* plugins: os-acme-client 1.27 `[1] <https://github.com/yetitecnologia/plugins/pull/1536>`__ 
+* plugins: os-bind 1.9 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/20.1/dns/bind/pkg-descr>`__ 
+* plugins: os-nginx 1.15 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/20.1/www/nginx/pkg-descr>`__ 
 * plugins: os-relayd 2.4 fixes protocol option migration (contributed by Frank Brendel)
 * plugins: os-theme-cicada 1.22 (contributed by Team Rebellion)
 * ports: ca_root_nss 3.47
@@ -301,17 +301,17 @@ Here are the full patch notes:
 * ipsec: add margintime and rekeyfuzz options
 * ipsec: clear $dpdline correctly if not set
 * ui: fix tokenizer reorder on multiple saves
-* plugins: os-acme-client 1.26 `[1] <https://github.com/opnsense/plugins/pull/1499>`__ 
+* plugins: os-acme-client 1.26 `[1] <https://github.com/yetitecnologia/plugins/pull/1499>`__ 
 * plugins: os-bind will reload bind on record change (contributed by blablup)
 * plugins: os-etpro-telemetry minor subprocess.call replacement
-* plugins: os-freeradius 1.9.4 `[2] <https://github.com/opnsense/plugins/blob/master/net/freeradius/pkg-descr>`__ 
-* plugins: os-frr 1.12 `[3] <https://github.com/opnsense/plugins/blob/master/net/frr/pkg-descr>`__ 
-* plugins: os-haproxy 2.19 `[4] <https://github.com/opnsense/plugins/pull/1498>`__ 
-* plugins: os-mailtrail 1.2 `[5] <https://github.com/opnsense/plugins/blob/master/security/maltrail/pkg-descr>`__ 
-* plugins: os-postfix 1.11 `[6] <https://github.com/opnsense/plugins/blob/master/mail/postfix/pkg-descr>`__ 
-* plugins: os-rspamd 1.8 `[7] <https://github.com/opnsense/plugins/blob/master/mail/rspamd/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.4 `[2] <https://github.com/yetitecnologia/plugins/blob/master/net/freeradius/pkg-descr>`__ 
+* plugins: os-frr 1.12 `[3] <https://github.com/yetitecnologia/plugins/blob/master/net/frr/pkg-descr>`__ 
+* plugins: os-haproxy 2.19 `[4] <https://github.com/yetitecnologia/plugins/pull/1498>`__ 
+* plugins: os-mailtrail 1.2 `[5] <https://github.com/yetitecnologia/plugins/blob/master/security/maltrail/pkg-descr>`__ 
+* plugins: os-postfix 1.11 `[6] <https://github.com/yetitecnologia/plugins/blob/master/mail/postfix/pkg-descr>`__ 
+* plugins: os-rspamd 1.8 `[7] <https://github.com/yetitecnologia/plugins/blob/master/mail/rspamd/pkg-descr>`__ 
 * plugins: os-sunnyvalley LibreSSL support (contributed by Sunny Valley Networks)
-* plugins: os-telegraf 1.7.6 `[8] <https://github.com/opnsense/plugins/blob/master/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-telegraf 1.7.6 `[8] <https://github.com/yetitecnologia/plugins/blob/master/net-mgmt/telegraf/pkg-descr>`__ 
 * plugins: os-theme-cicada 1.21 (contributed by Team Rebellion)
 * plugins: os-theme-tukan 1.21 (contributed by Team Rebellion)
 * plugins: os-tinc minor subprocess.call replacement
@@ -359,8 +359,8 @@ Here are the full patch notes:
 * firmware: Homelab.no has been superseded by TerraHost mirror (contributed by Thomas Jensen)
 * unbound: support file-based custom includes
 * unbound: set absolute path to root.hints (contributed by h-town)
-* plugins: os-bind 1.8 `[2] <https://github.com/opnsense/plugins/blob/master/dns/bind/pkg-descr>`__  (contributed by ErikJStaab)
-* plugins: os-dnscrypt-proxy 1.6 `[3] <https://github.com/opnsense/plugins/blob/master/dns/dnscrypt-proxy/pkg-descr>`__  (contributed by ErikJStaab)
+* plugins: os-bind 1.8 `[2] <https://github.com/yetitecnologia/plugins/blob/master/dns/bind/pkg-descr>`__  (contributed by ErikJStaab)
+* plugins: os-dnscrypt-proxy 1.6 `[3] <https://github.com/yetitecnologia/plugins/blob/master/dns/dnscrypt-proxy/pkg-descr>`__  (contributed by ErikJStaab)
 * plugins: os-etpro-telemetry 1.4 `[4] <https://docs.opnsense.org/manual/etpro_telemetry.html>`__ 
 * plugins: os-theme-cicada 1.20 (contributed by Team Rebellion)
 * plugins: os-theme-tukan 1.20 (contributed by Team Rebellion)
@@ -416,17 +416,17 @@ Here is the full list of changes:
 * ui: more consistent HTML (contributed by gisforgirard)
 * ui: sidebar bug fix (contributed by Team Rebellion)
 * ui: fix initFormAdvancedUI() on initial load
-* plugins: os-acme-client 1.25 `[1] <https://github.com/opnsense/plugins/pull/1452>`__ 
-* plugins: os-bind 1.7 `[2] <https://github.com/opnsense/plugins/blob/master/dns/bind/pkg-descr>`__ 
+* plugins: os-acme-client 1.25 `[1] <https://github.com/yetitecnologia/plugins/pull/1452>`__ 
+* plugins: os-bind 1.7 `[2] <https://github.com/yetitecnologia/plugins/blob/master/dns/bind/pkg-descr>`__ 
 * plugins: os-dyndns 1.17 removes OpenDNS and fixes DyNS
-* plugins: os-haproxy 2.18 `[3] <https://github.com/opnsense/plugins/pull/1453>`__ 
-* plugins: os-maltrail 1.1 `[4] <https://github.com/opnsense/plugins/blob/master/security/maltrail/pkg-descr>`__ 
+* plugins: os-haproxy 2.18 `[3] <https://github.com/yetitecnologia/plugins/pull/1453>`__ 
+* plugins: os-maltrail 1.1 `[4] <https://github.com/yetitecnologia/plugins/blob/master/security/maltrail/pkg-descr>`__ 
 * plugins: os-nginx log rotation fix (contributed by Fabian Franz)
-* plugins: os-postfix 1.10 `[5] <https://github.com/opnsense/plugins/blob/master/mail/postfix/pkg-descr>`__ 
+* plugins: os-postfix 1.10 `[5] <https://github.com/yetitecnologia/plugins/blob/master/mail/postfix/pkg-descr>`__ 
 * plugins: os-smart 2.1 fixes widget status and adds NVMe disk support (contributed by nhirokinet and ATL)
 * plugins: os-theme-cicada 1.19 (contributed by Team Rebellion)
 * plugins: os-theme-tukan 1.19 (contributed by Team Rebellion)
-* plugins: os-wireguard 1.1 `[6] <https://github.com/opnsense/plugins/blob/master/net/wireguard/pkg-descr>`__ 
+* plugins: os-wireguard 1.1 `[6] <https://github.com/yetitecnologia/plugins/blob/master/net/wireguard/pkg-descr>`__ 
 * src: fix incorrect exception handling in libunwind `[7] <https://www.freebsd.org/security/advisories/FreeBSD-EN-19:15.libunwind.asc>`__ 
 * src: fix multiple vulnerabilities in bzip2 `[8] <https://www.freebsd.org/security/advisories/FreeBSD-SA-19:18.bzip2.asc>`__ 
 * src: fix ICMPv6 / MLDv2 out-of-bounds memory access `[9] <https://www.freebsd.org/security/advisories/FreeBSD-SA-19:19.mldv2.asc>`__ 
@@ -525,11 +525,11 @@ Here are the full patch notes:
 * ipsec: remove already default "dpdaction = none" if not set
 * ipsec: use interface IP address in local ID when doing NAT before IPsec
 * web proxy: fix database reset for Squid 4 by replacing use of ssl_crtd with security_file_certgen
-* plugins: os-acme-client 1.24 `[1] <https://github.com/opnsense/plugins/pull/1399>`__ 
-* plugins: os-bind 1.6 `[2] <https://github.com/opnsense/plugins/blob/master/dns/bind/pkg-descr>`__ 
-* plugins: os-dnscrypt-proxy 1.5 `[3] <https://github.com/opnsense/plugins/blob/master/dns/dnscrypt-proxy/pkg-descr>`__ 
-* plugins: os-frr now restricts characters BGP prefix-list and route-maps `[4] <https://github.com/opnsense/plugins/blob/master/net/frr/pkg-descr>`__ 
-* plugins: os-google-cloud-sdk 1.0 `[5] <https://github.com/opnsense/plugins/pull/1392>`__ 
+* plugins: os-acme-client 1.24 `[1] <https://github.com/yetitecnologia/plugins/pull/1399>`__ 
+* plugins: os-bind 1.6 `[2] <https://github.com/yetitecnologia/plugins/blob/master/dns/bind/pkg-descr>`__ 
+* plugins: os-dnscrypt-proxy 1.5 `[3] <https://github.com/yetitecnologia/plugins/blob/master/dns/dnscrypt-proxy/pkg-descr>`__ 
+* plugins: os-frr now restricts characters BGP prefix-list and route-maps `[4] <https://github.com/yetitecnologia/plugins/blob/master/net/frr/pkg-descr>`__ 
+* plugins: os-google-cloud-sdk 1.0 `[5] <https://github.com/yetitecnologia/plugins/pull/1392>`__ 
 * ports: curl 7.65.3 `[6] <https://curl.haxx.se/changes.html>`__ 
 * ports: monit 5.26.0 `[7] <https://mmonit.com/monit/changes/>`__ 
 * ports: openssh 8.0p1 `[8] <https://www.openssh.com/txt/release-8.0>`__ 
@@ -616,7 +616,7 @@ And here are the full changes against version 19.7-RC1:
 * wizard: improve logo contrast in welcome message
 * plugins: os-frr redistribute configuration fix (contributed by Cedric Vanet)
 * plugins: os-intrusion-detection-content-et-pro 1.0.1 now uses suricata-4.0 rulesets
-* plugins: os-haproxy 2.17 `[2] <https://github.com/opnsense/plugins/pull/1347>`__  `[3] <https://github.com/opnsense/plugins/pull/1408>`__ 
+* plugins: os-haproxy 2.17 `[2] <https://github.com/yetitecnologia/plugins/pull/1347>`__  `[3] <https://github.com/yetitecnologia/plugins/pull/1408>`__ 
 * plugins: os-mail-backup 1.0 (contributed by Joao Vilaca)
 * plugins: os-maltrail 1.0 (contributed by Michael Muenz)
 * plugins os-smart 2.0 MVC conversion (contributed by Smart-Soft)

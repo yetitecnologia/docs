@@ -82,8 +82,8 @@ Here are the full patch notes:
 * mvc: fill missing keys when sorting in searchRecordsetBase()
 * mvc: fix empty item selection issue in BaseListField
 * ui: remove noodp and noydir from HTML meta robots tag (contributed by William Desportes)
-* plugins: os-crowdsec 1.0.6 `[1] <https://github.com/opnsense/plugins/blob/stable/23.1/security/crowdsec/pkg-descr>`__ 
-* plugins: os-nginx 1.32.1 `[2] <https://github.com/opnsense/plugins/blob/stable/23.1/www/nginx/pkg-descr>`__ 
+* plugins: os-crowdsec 1.0.6 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/security/crowdsec/pkg-descr>`__ 
+* plugins: os-nginx 1.32.1 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/www/nginx/pkg-descr>`__ 
 * plugins: os-zabbix-agent plugin variant for Zabbix 6.4
 * plugins: os-zabbix-proxy plugin variant for Zabbix 6.4
 * src: axgbe: account for 4 SFP ports during GPIO expander check
@@ -107,7 +107,7 @@ Here are the full patch notes:
 * ports: py-setuptools fix for CVE-2022-40897
 * ports: python 3.9.17 `[16] <https://docs.python.org/release/3.9.17/whatsnew/changelog.html>`__ 
 * ports: squid 5.9 `[17] <http://www.squid-cache.org/Versions/v5/squid-5.9-RELEASENOTES.html>`__ 
-* ports: strongswan upstream fix for VICI stalls `[18] <https://github.com/opnsense/core/issues/6308>`__ 
+* ports: strongswan upstream fix for VICI stalls `[18] <https://github.com/yetitecnologia/core/issues/6308>`__ 
 * ports: suricata 6.0.13 `[19] <https://suricata.io/2023/06/15/suricata-6-0-13-released/>`__ 
 
 A hotfix release was issued as 23.4.2_1:
@@ -217,19 +217,19 @@ Here are the full patch notes:
 * ui: prevent crashing out when endpoint does not return data for SimpleActionButton
 * plugins: os-OPNBEcore minor fixes and additions
 * plugins: os-OPNcentral minor fixes and additions
-* plugins: os-acme-client 3.17 `[2] <https://github.com/opnsense/plugins/blob/stable/23.1/security/acme-client/pkg-descr>`__ 
-* plugins: os-bind 1.26 `[3] <https://github.com/opnsense/plugins/blob/stable/23.1/dns/bind/pkg-descr>`__ 
-* plugins: os-crowdsec 1.0.5 `[4] <https://github.com/opnsense/plugins/blob/stable/23.1/security/crowdsec/pkg-descr>`__ 
-* plugins: os-ddclient 1.13 `[5] <https://github.com/opnsense/plugins/blob/stable/23.1/dns/ddclient/pkg-descr>`__ 
-* plugins: os-dnscrypt-proxy 1.13 `[6] <https://github.com/opnsense/plugins/blob/stable/23.1/dns/dnscrypt-proxy/pkg-descr>`__ 
-* plugins: os-nginx 1.32 `[7] <https://github.com/opnsense/plugins/blob/stable/23.1/www/nginx/pkg-descr>`__ 
+* plugins: os-acme-client 3.17 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/security/acme-client/pkg-descr>`__ 
+* plugins: os-bind 1.26 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/dns/bind/pkg-descr>`__ 
+* plugins: os-crowdsec 1.0.5 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/security/crowdsec/pkg-descr>`__ 
+* plugins: os-ddclient 1.13 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/dns/ddclient/pkg-descr>`__ 
+* plugins: os-dnscrypt-proxy 1.13 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/dns/dnscrypt-proxy/pkg-descr>`__ 
+* plugins: os-nginx 1.32 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/www/nginx/pkg-descr>`__ 
 * plugins: os-smart fix for highlighting result (contributed by Justin Horton)
 * plugins: os-stunnel fix for missing OpenSSL CRL functions
 * plugins: os-upnp now allows subnet mask 0 in rules (contributed by Reiko Asakura)
-* src: bridge: add support for emulated netmap mode `[8] <https://github.com/opnsense/src/commit/eebd4b140f>`__ 
+* src: bridge: add support for emulated netmap mode `[8] <https://github.com/yetitecnologia/src/commit/eebd4b140f>`__ 
 * src: epair: also remove vlan metadata from mbufs
 * src: ifconfig: fix configuring if_bridge with additional operating parameters
-* src: netmap: fix queue stalls with generic interfaces `[9] <https://github.com/opnsense/src/commit/cc92d78fa5>`__ 
+* src: netmap: fix queue stalls with generic interfaces `[9] <https://github.com/yetitecnologia/src/commit/cc92d78fa5>`__ 
 * src: netmap: assorted upstream stable patches
 * src: sched_ule: assorted fixes to address issues on newer AMD platforms
 * src: axgbe: fix link issues for gigabit external SFP PHYs and 100/1000 fiber modules
@@ -447,23 +447,23 @@ Here are the full patch notes:
 * wizard: unbound hardened DNSSEC setting moved
 * plugins: os-OPNBEcore 1.1
 * plugins: os-OPNcentral 1.6
-* plugins: os-acme-client 3.16 `[3] <https://github.com/opnsense/plugins/blob/stable/23.1/security/acme-client/pkg-descr>`__ 
-* plugins: os-api-backup 1.1 `[4] <https://github.com/opnsense/plugins/blob/stable/23.1/sysutils/api-backup/pkg-descr>`__ 
-* plugins: os-bind 1.25 `[5] <https://github.com/opnsense/plugins/blob/stable/23.1/dns/bind/pkg-descr>`__ 
-* plugins: os-crowdsec 1.0.2 `[6] <https://github.com/opnsense/plugins/blob/stable/23.1/security/crowdsec/pkg-descr>`__ 
-* plugins: os-ddclient 1.11 `[7] <https://github.com/opnsense/plugins/blob/stable/23.1/dns/ddclient/pkg-descr>`__ 
-* plugins: os-freeradius 1.9.22 `[8] <https://github.com/opnsense/plugins/blob/stable/23.1/net/freeradius/pkg-descr>`__ 
-* plugins: os-frr 1.33 `[9] <https://github.com/opnsense/plugins/blob/stable/23.1/net/frr/pkg-descr>`__ 
-* plugins: os-haproxy 4.1 `[10] <https://github.com/opnsense/plugins/blob/stable/23.1/net/haproxy/pkg-descr>`__ 
-* plugins: os-openconnect 1.4.4 `[11] <https://github.com/opnsense/plugins/blob/stable/23.1/security/openconnect/pkg-descr>`__ 
-* plugins: os-puppet-agent 1.1 `[12] <https://github.com/opnsense/plugins/blob/stable/23.1/sysutils/puppet-agent/pkg-descr>`__ 
-* plugins: os-qemu-guest-agent 1.2 `[13] <https://github.com/opnsense/plugins/blob/stable/23.1/emulators/qemu-guest-agent/pkg-descr>`__ 
-* plugins: os-rfc2136 1.8 `[14] <https://github.com/opnsense/plugins/blob/stable/23.1/dns/rfc2136/pkg-descr>`__ 
-* plugins: os-sslh 1.0 `[15] <https://github.com/opnsense/plugins/blob/stable/23.1/net/sslh/pkg-descr>`__  (contributed by agh1467)
+* plugins: os-acme-client 3.16 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/security/acme-client/pkg-descr>`__ 
+* plugins: os-api-backup 1.1 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/sysutils/api-backup/pkg-descr>`__ 
+* plugins: os-bind 1.25 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/dns/bind/pkg-descr>`__ 
+* plugins: os-crowdsec 1.0.2 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/security/crowdsec/pkg-descr>`__ 
+* plugins: os-ddclient 1.11 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/dns/ddclient/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.22 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/net/freeradius/pkg-descr>`__ 
+* plugins: os-frr 1.33 `[9] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/net/frr/pkg-descr>`__ 
+* plugins: os-haproxy 4.1 `[10] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/net/haproxy/pkg-descr>`__ 
+* plugins: os-openconnect 1.4.4 `[11] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/security/openconnect/pkg-descr>`__ 
+* plugins: os-puppet-agent 1.1 `[12] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/sysutils/puppet-agent/pkg-descr>`__ 
+* plugins: os-qemu-guest-agent 1.2 `[13] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/emulators/qemu-guest-agent/pkg-descr>`__ 
+* plugins: os-rfc2136 1.8 `[14] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/dns/rfc2136/pkg-descr>`__ 
+* plugins: os-sslh 1.0 `[15] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/net/sslh/pkg-descr>`__  (contributed by agh1467)
 * plugins: os-theme-cicada 1.34 (contributed by Team Rebellion)
 * plugins: os-theme-tukan 1.27 (contributed by Team Rebellion)
 * plugins: os-theme-vicuna 1.45 (contributed by Team Rebellion)
-* plugins: os-upnp 1.5 `[16] <https://github.com/opnsense/plugins/blob/stable/23.1/net/upnp/pkg-descr>`__ 
+* plugins: os-upnp 1.5 `[16] <https://github.com/yetitecnologia/plugins/blob/stable/23.1/net/upnp/pkg-descr>`__ 
 * plugins: os-wireguard switches to kernel module with a separate os-wireguard-go variant available for installation to keep the old behaviour
 * src: assorted FreeBSD 13 stable fixes for e.g. bpf, bridge, bsdinstall ifconfig, iflib, ipfw, ipsec, lagg, netmap, pf, route and vlan components
 * src: ipsec: clear pad bytes in PF_KEY messages

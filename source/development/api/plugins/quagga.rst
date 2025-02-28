@@ -14,7 +14,7 @@ Quagga
     "``POST``","quagga","bfd","setNeighbor","$uuid"
     "``POST``","quagga","bfd","toggleNeighbor","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `BFD.xml <https://github.com/opnsense/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/BFD.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `BFD.xml <https://github.com/yetitecnologia/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/BFD.xml>`__"
 
 .. csv-table:: Resources (BgpController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -59,7 +59,7 @@ Quagga
     "``POST``","quagga","bgp","togglePrefixlist","$uuid"
     "``POST``","quagga","bgp","toggleRoutemap","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `BGP.xml <https://github.com/opnsense/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/BGP.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `BGP.xml <https://github.com/yetitecnologia/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/BGP.xml>`__"
 
 .. csv-table:: Resources (DiagnosticsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -92,7 +92,7 @@ Quagga
     "``GET``","quagga","general","get",""
     "``POST``","quagga","general","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/opnsense/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/General.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/yetitecnologia/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/General.xml>`__"
 
 .. csv-table:: Resources (Ospf6settingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -125,7 +125,7 @@ Quagga
     "``POST``","quagga","ospf6settings","togglePrefixlist","$uuid"
     "``POST``","quagga","ospf6settings","toggleRoutemap","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `OSPF6.xml <https://github.com/opnsense/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/OSPF6.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `OSPF6.xml <https://github.com/yetitecnologia/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/OSPF6.xml>`__"
 
 .. csv-table:: Resources (OspfsettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -158,7 +158,7 @@ Quagga
     "``POST``","quagga","ospfsettings","togglePrefixlist","$uuid"
     "``POST``","quagga","ospfsettings","toggleRoutemap","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `OSPF.xml <https://github.com/opnsense/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/OSPF.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `OSPF.xml <https://github.com/yetitecnologia/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/OSPF.xml>`__"
 
 .. csv-table:: Service (RipController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -167,7 +167,7 @@ Quagga
     "``GET``","quagga","rip","get",""
     "``POST``","quagga","rip","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `RIP.xml <https://github.com/opnsense/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/RIP.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `RIP.xml <https://github.com/yetitecnologia/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/RIP.xml>`__"
 
 .. csv-table:: Service (ServiceController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -179,7 +179,7 @@ Quagga
     "``GET``","quagga","service","status",""
     "``POST``","quagga","service","stop",""
 
-    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/opnsense/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/General.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/yetitecnologia/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/General.xml>`__"
 
 .. csv-table:: Resources (StaticController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -194,4 +194,4 @@ Quagga
     "``POST``","quagga","static","setRoute","$uuid"
     "``POST``","quagga","static","toggleRoute","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `STATICd.xml <https://github.com/opnsense/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/STATICd.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `STATICd.xml <https://github.com/yetitecnologia/plugins/blob/master/net/frr/src/opnsense/mvc/app/models/OPNsense/Quagga/STATICd.xml>`__"

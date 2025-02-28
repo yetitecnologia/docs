@@ -15,4 +15,4 @@ Routing
     "``POST``","routing","settings","setGateway","$uuid"
     "``POST``","routing","settings","toggleGateway","$uuid,$enabled=null"
 
-    "``<<uses>>``", "", "", "", "*model* `Gateways.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Routing/Gateways.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Gateways.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Routing/Gateways.xml>`__"

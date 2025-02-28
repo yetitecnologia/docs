@@ -17,7 +17,7 @@ Proxy
     "``GET``","proxy","service","status",""
     "``POST``","proxy","service","stop",""
 
-    "``<<uses>>``", "", "", "", "*model* `Proxy.xml <https://github.com/opnsense/plugins/blob/master/www/squid/src/opnsense/mvc/app/models/OPNsense/Proxy/Proxy.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Proxy.xml <https://github.com/yetitecnologia/plugins/blob/master/www/squid/src/opnsense/mvc/app/models/OPNsense/Proxy/Proxy.xml>`__"
 
 .. csv-table:: Resources (SettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -49,7 +49,7 @@ Proxy
     "``POST``","proxy","settings","togglePACRule","$uuid"
     "``POST``","proxy","settings","toggleRemoteBlacklist","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Proxy.xml <https://github.com/opnsense/plugins/blob/master/www/squid/src/opnsense/mvc/app/models/OPNsense/Proxy/Proxy.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Proxy.xml <https://github.com/yetitecnologia/plugins/blob/master/www/squid/src/opnsense/mvc/app/models/OPNsense/Proxy/Proxy.xml>`__"
 
 .. csv-table:: Resources (TemplateController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -61,7 +61,7 @@ Proxy
     "``POST``","proxy","template","set",""
     "``POST``","proxy","template","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `Proxy.xml <https://github.com/opnsense/plugins/blob/master/www/squid/src/opnsense/mvc/app/models/OPNsense/Proxy/Proxy.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Proxy.xml <https://github.com/yetitecnologia/plugins/blob/master/www/squid/src/opnsense/mvc/app/models/OPNsense/Proxy/Proxy.xml>`__"
 
 .. csv-table:: Resources (AclController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -84,4 +84,4 @@ Proxy
     "``POST``","proxy","acl","toggleCustomPolicy","$uuid,$enabled=null"
     "``POST``","proxy","acl","togglePolicy","$uuid,$enabled=null"
 
-    "``<<uses>>``", "", "", "", "*model* `ACL.xml <https://github.com/opnsense/plugins/blob/master/www/OPNProxy/src/opnsense/mvc/app/models/Deciso/Proxy/ACL.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `ACL.xml <https://github.com/yetitecnologia/plugins/blob/master/www/OPNProxy/src/opnsense/mvc/app/models/Deciso/Proxy/ACL.xml>`__"

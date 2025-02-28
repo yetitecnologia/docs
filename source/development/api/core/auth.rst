@@ -13,7 +13,7 @@ Auth
     "``POST``","auth","group","set","$uuid=null"
     "``POST``","auth","group","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `Group.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Auth/Group.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Group.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Auth/Group.xml>`__"
 
 .. csv-table:: Service (PrivController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -25,7 +25,7 @@ Auth
     "``POST``","auth","priv","set",""
     "``POST``","auth","priv","setItem","$id"
 
-    "``<<uses>>``", "", "", "", "*model* `Priv.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Auth/Priv.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Priv.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Auth/Priv.xml>`__"
 
 .. csv-table:: Resources (UserController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -43,4 +43,4 @@ Auth
     "``POST``","auth","user","set","$uuid=null"
     "``POST``","auth","user","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `User.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Auth/User.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `User.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Auth/User.xml>`__"

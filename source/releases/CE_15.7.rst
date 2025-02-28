@@ -128,7 +128,7 @@ We're back, and we have a lot of neat changes and security updates
 for you.  Most notably, the firewall pages received a lot of subtle
 tweaks to improve user experience.  Secondly, the firmware pages
 gained the plugins management feature.  And last but not least, the
-kernel and base upgrade gained better signature support `[1] <https://github.com/opnsense/update#opnsense-sign--opnsense-verify>`__  that ties
+kernel and base upgrade gained better signature support `[1] <https://github.com/yetitecnologia/update#opnsense-sign--opnsense-verify>`__  that ties
 right into FreeBSD's pkg verification mechanism, how cool is that!
 
 We'd like to use this opportunity to thank four of our regular
@@ -370,13 +370,13 @@ Here are the full patch notes:
 * src: fix kqueue write events never fired for files greater 2GB `[1] <https://www.freebsd.org/security/advisories/FreeBSD-EN-15:19.kqueue.asc>`__ 
 * src: remove obsolete locking primitives IFA_LOCK() / IFA_UNLOCK()
 * src: enable netmap(4) driver support in the kernel
-* src: merge stf(4) driver modifications from pfSense `[2] <https://github.com/opnsense/src/commit/19ba0fbfd15ea8ff24ce172dee30e1>`__ 
+* src: merge stf(4) driver modifications from pfSense `[2] <https://github.com/yetitecnologia/src/commit/19ba0fbfd15ea8ff24ce172dee30e1>`__ 
 * ports: squid 5.3.11 `[3] <http://ftp.meisei-u.ac.jp/mirror/squid/squid-3.5-ChangeLog.txt>`__ 
 * ports: strongswan 5.3.4 `[4] <https://www.strongswan.org/blog/2015/11/16/strongswan-5.3.4-released.html>`__ 
 * ports: choparp 20150613 `[5] <https://github.com/quinot/choparp>`__ 
 * ports: libxml 2.9.3 `[6] <https://gitlab.gnome.org/GNOME/libxml2/-/blob/master/NEWS>`__ 
 * ports: pkg 1.6.2 `[7] <https://github.com/freebsd/freebsd-ports/commit/0466b08981bf9c714>`__ 
-* ports: opnsense-bootstrap, the infamous installer that works on stock FreeBSD `[8] <https://github.com/opnsense/update/commit/e3f63ecdb1149a8cc30e3>`__ 
+* ports: opnsense-bootstrap, the infamous installer that works on stock FreeBSD `[8] <https://github.com/yetitecnologia/update/commit/e3f63ecdb1149a8cc30e3>`__ 
 * intrusion detection: ignore json parse errors in eve log file
 * intrusion prevention (development): added Suricata 2.1beta4 in inline mode `[9] <https://forum.opnsense.org/index.php?topic=1740>`__ 
 * interfaces: reverted cache removal due to multiple speed regressions reports
@@ -409,7 +409,7 @@ Here are the full patch notes:
 
 * ports: sudo 1.8.15 `[1] <https://www.sudo.ws/legacy.html#1.8.15>`__ , sqlite 3.9.2 `[2] <https://sqlite.org/releaselog/3_9_2.html>`__ 
 * aliases: make url tables useable
-* interfaces: fix faulty GUI caching issues `[3] <https://github.com/opnsense/core/issues/451>`__ 
+* interfaces: fix faulty GUI caching issues `[3] <https://github.com/yetitecnologia/core/issues/451>`__ 
 * ipsec: obey force nat traversal
 * ipsec: switch status page and widget from deprecated SMP to VICI interface
   for reliable output

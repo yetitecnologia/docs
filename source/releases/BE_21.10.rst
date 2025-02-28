@@ -39,18 +39,18 @@ Here are the full patch notes:
 * captive portal: prevent session removal crashing when no IP address was registered
 * mvc: add getInterfaceConfig endpoint to interface API (contributed by Paolo Asperti)
 * mvc: fix logging of configd errors (contributed by kulikov-a)
-* plugins: os-acme-client 3.8 `[1] <https://github.com/opnsense/plugins/blob/stable/21.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-frr 1.26 `[2] <https://github.com/opnsense/plugins/blob/stable/21.7/net/frr/pkg-descr>`__ 
-* plugins: os-openconnect 1.4.2 `[3] <https://github.com/opnsense/plugins/blob/stable/21.7/security/openconnect/pkg-descr>`__ 
-* plugins: os-postfix 1.21 `[4] <https://github.com/opnsense/plugins/blob/stable/21.7/mail/postfix/pkg-descr>`__ 
-* plugins: os-telegraf 1.12.4 `[5] <https://github.com/opnsense/plugins/blob/stable/21.7/net-mgmt/telegraf/pkg-descr>`__ 
-* plugins: os-wireguard 1.10 `[6] <https://github.com/opnsense/plugins/blob/stable/21.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-acme-client 3.8 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-frr 1.26 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/frr/pkg-descr>`__ 
+* plugins: os-openconnect 1.4.2 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/security/openconnect/pkg-descr>`__ 
+* plugins: os-postfix 1.21 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/mail/postfix/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.4 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-wireguard 1.10 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/wireguard/pkg-descr>`__ 
 * src: axgbe: validate contents of gpio expander
 * src: incorrect XSAVE state size `[7] <https://www.freebsd.org/security/advisories/FreeBSD-EN-22:02.xsave.asc>`__ 
 * src: vPCI compatibility improvements with certain Hyper-V releases `[8] <https://www.freebsd.org/security/advisories/FreeBSD-EN-22:03.hyperv.asc>`__ 
 * src: vt console buffer overflow `[9] <https://www.freebsd.org/security/advisories/FreeBSD-SA-22:01.vt.asc>`__ 
 * ports: expat 2.4.2 `[10] <https://github.com/libexpat/libexpat/blob/R_2_4_2/expat/Changes>`__ 
-* ports: filterlog 0.6 `[11] <https://github.com/opnsense/ports/commit/2e27655d84>`__ 
+* ports: filterlog 0.6 `[11] <https://github.com/yetitecnologia/ports/commit/2e27655d84>`__ 
 * ports: flock 2.37.2
 * ports: hostapd 2.10 `[12] <https://w1.fi/cgit/hostap/plain/hostapd/ChangeLog>`__ 
 * ports: lighttpd 1.4.63 `[13] <https://www.lighttpd.net/2021/12/4/1.4.63/>`__ 
@@ -116,18 +116,18 @@ Here are the full patch notes:
 * src: axgbe: fix possbile link instabilities
 * src: axgbe: log GPIO signals on EEPROM read fails
 * plugins: os-OPNWAF 1.0 `[1] <https://docs.opnsense.org/vendor/deciso/opnwaf.html>`__ 
-* plugins: os-acme-client 3.6 `[2] <https://github.com/opnsense/plugins/blob/stable/21.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-dyndns 1.27 `[3] <https://github.com/opnsense/plugins/blob/stable/21.7/dns/dyndns/pkg-descr>`__ 
+* plugins: os-acme-client 3.6 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-dyndns 1.27 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/dns/dyndns/pkg-descr>`__ 
 * plugins: os-etpro-telemetry 1.6 switches to Suricata 5 rulesets
 * plugins: os-fetchmail removed due to licensing restrictions
 * plugins: os-firewall 1.1 adds "Do not NAT" option
-* plugins: os-frr 1.24 `[4] <https://github.com/opnsense/plugins/blob/stable/21.7/net/frr/pkg-descr>`__ 
-* plugins: os-haproxy 3.8 `[5] <https://github.com/opnsense/plugins/blob/stable/21.7/net/haproxy/pkg-descr>`__ 
-* plugins: os-nginx 1.24 `[6] <https://github.com/opnsense/plugins/blob/stable/21.7/www/nginx/pkg-descr>`__ 
-* plugins: os-telegraf 1.12.3 `[7] <https://github.com/opnsense/plugins/blob/stable/21.7/net-mgmt/telegraf/pkg-descr>`__ 
-* plugins: os-wireguard 1.9 `[8] <https://github.com/opnsense/plugins/blob/stable/21.7/net/wireguard/pkg-descr>`__ 
-* plugins: os-zabbix-agent 1.10 `[9] <https://github.com/opnsense/plugins/blob/stable/21.7/net-mgmt/zabbix-agent/pkg-descr>`__ 
-* plugins: os-zabbix-proxy 1.6 `[10] <https://github.com/opnsense/plugins/blob/stable/21.7/net-mgmt/zabbix-proxy/pkg-descr>`__ 
+* plugins: os-frr 1.24 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/frr/pkg-descr>`__ 
+* plugins: os-haproxy 3.8 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/haproxy/pkg-descr>`__ 
+* plugins: os-nginx 1.24 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/www/nginx/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.3 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-wireguard 1.9 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-zabbix-agent 1.10 `[9] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net-mgmt/zabbix-agent/pkg-descr>`__ 
+* plugins: os-zabbix-proxy 1.6 `[10] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net-mgmt/zabbix-proxy/pkg-descr>`__ 
 * ports: curl 7.80.0 `[11] <https://curl.se/changes.html#7_80_0>`__ 
 * ports: dnsmasq fixes multiple regressions
 * ports: nss 3.73 `[12] <https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_73.html>`__ 
@@ -207,24 +207,24 @@ Here are the full patch notes:
 * backend: static parameters ignored when no dynamic ones exist
 * mvc: replace __toString() calls with string casts
 * ui: prevent event propagation to avoid click() events being forwarded
-* plugins: os-acme-client 3.4 `[1] <https://github.com/opnsense/plugins/blob/stable/21.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-bind 1.19 `[2] <https://github.com/opnsense/plugins/blob/stable/21.7/dns/bind/pkg-descr>`__ 
+* plugins: os-acme-client 3.4 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-bind 1.19 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/dns/bind/pkg-descr>`__ 
 * plugins: os-c-icap log file fix (contributed by Michael Muenz)
-* plugins: os-dnscrypt-proxy 1.10 `[3] <https://github.com/opnsense/plugins/blob/stable/21.7/dns/dnscrypt-proxy/pkg-descr>`__ 
-* plugins: os-dyndns 1.26 `[4] <https://github.com/opnsense/plugins/blob/stable/21.7/dns/dyndns/pkg-descr>`__ 
-* plugins: os-freeradius 1.9.17 `[5] <https://github.com/opnsense/plugins/blob/stable/21.7/net/freeradius/pkg-descr>`__ 
-* plugins: os-frr 1.23 `[6] <https://github.com/opnsense/plugins/blob/stable/21.7/net/frr/pkg-descr>`__ 
-* plugins: os-haproxy 3.7 `[7] <https://github.com/opnsense/plugins/blob/stable/21.7/net/haproxy/pkg-descr>`__ 
+* plugins: os-dnscrypt-proxy 1.10 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/dns/dnscrypt-proxy/pkg-descr>`__ 
+* plugins: os-dyndns 1.26 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/dns/dyndns/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.17 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/freeradius/pkg-descr>`__ 
+* plugins: os-frr 1.23 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/frr/pkg-descr>`__ 
+* plugins: os-haproxy 3.7 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/haproxy/pkg-descr>`__ 
 * plugins: os-lldpd will now identify itself as Network Connectivity Device (contributed by Xeroxxx)
-* plugins: os-nut 1.8.1 `[8] <https://github.com/opnsense/plugins/blob/stable/21.7/sysutils/nut/pkg-descr>`__ 
-* plugins: os-openconnect 1.4.1 `[9] <https://github.com/opnsense/plugins/blob/stable/21.7/security/openconnect/pkg-descr>`__ 
-* plugins: os-puppet-agent 1.0 `[10] <https://github.com/opnsense/plugins/blob/stable/21.7/sysutils/puppet-agent/pkg-descr>`__ 
-* plugins: os-qemu-guest-agent 1.1 `[11] <https://github.com/opnsense/plugins/blob/stable/21.7/emulators/qemu-guest-agent/pkg-descr>`__ 
-* plugins: os-relayd 2.6 `[12] <https://github.com/opnsense/plugins/pull/2391>`__ 
-* plugins: os-telegraf 1.12.2 `[13] <https://github.com/opnsense/plugins/blob/stable/21.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-nut 1.8.1 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/sysutils/nut/pkg-descr>`__ 
+* plugins: os-openconnect 1.4.1 `[9] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/security/openconnect/pkg-descr>`__ 
+* plugins: os-puppet-agent 1.0 `[10] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/sysutils/puppet-agent/pkg-descr>`__ 
+* plugins: os-qemu-guest-agent 1.1 `[11] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/emulators/qemu-guest-agent/pkg-descr>`__ 
+* plugins: os-relayd 2.6 `[12] <https://github.com/yetitecnologia/plugins/pull/2391>`__ 
+* plugins: os-telegraf 1.12.2 `[13] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net-mgmt/telegraf/pkg-descr>`__ 
 * plugins: os-theme-rebellion 1.8.8 (contributed by Team Rebellion)
-* plugins: os-vnstat 1.3 `[14] <https://github.com/opnsense/plugins/blob/stable/21.7/net/vnstat/pkg-descr>`__ 
-* plugins: os-wireguard 1.8 `[15] <https://github.com/opnsense/plugins/blob/stable/21.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-vnstat 1.3 `[14] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/vnstat/pkg-descr>`__ 
+* plugins: os-wireguard 1.8 `[15] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/wireguard/pkg-descr>`__ 
 * src: include RSS kernel support defaulting to off
 * src: axgbe: properly multiplex on reading module signals
 * src: libnetmap: reset errno in nmreq_register_decode()
@@ -363,22 +363,22 @@ Here are the full patch notes:
 * plugins: OPNcentral core requirements are now installed by default via os-OPNBEcore plugin
 * plugins: os-OPNBEcore 1.0
 * plugins: os-OPNcentral 1.3 `[2] <https://docs.opnsense.org/vendor/deciso/opncentral.html>`__ 
-* plugins: os-acme-client 3.2 `[3] <https://github.com/opnsense/plugins/blob/stable/21.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-bind 1.18 `[4] <https://github.com/opnsense/plugins/blob/stable/21.7/dns/bind/pkg-descr>`__ 
-* plugins: os-chrony 1.4 `[5] <https://github.com/opnsense/plugins/blob/stable/21.7/net/chrony/pkg-descr>`__ 
-* plugins: os-collectd 1.4 `[6] <https://github.com/opnsense/plugins/blob/stable/21.7/net-mgmt/collectd/pkg-descr>`__ 
-* plugins: os-dnscrypt-proxy 1.9 `[7] <https://github.com/opnsense/plugins/blob/stable/21.7/dns/dnscrypt-proxy/pkg-descr>`__ 
-* plugins: os-fetchmail 1.1 `[8] <https://github.com/opnsense/plugins/blob/stable/21.7/mail/fetchmail/pkg-descr>`__ 
-* plugins: os-freeradius 1.9.16 `[9] <https://github.com/opnsense/plugins/blob/stable/21.7/net/freeradius/pkg-descr>`__ 
-* plugins: os-frr 1.22 `[10] <https://github.com/opnsense/plugins/blob/stable/21.7/net/frr/pkg-descr>`__ 
-* plugins: os-haproxy 3.5 `[11] <https://github.com/opnsense/plugins/blob/stable/21.7/net/haproxy/pkg-descr>`__ 
-* plugins: os-net-snmp 1.5 `[12] <https://github.com/opnsense/plugins/blob/stable/21.7/net-mgmt/net-snmp/pkg-descr>`__ 
+* plugins: os-acme-client 3.2 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-bind 1.18 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/dns/bind/pkg-descr>`__ 
+* plugins: os-chrony 1.4 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/chrony/pkg-descr>`__ 
+* plugins: os-collectd 1.4 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net-mgmt/collectd/pkg-descr>`__ 
+* plugins: os-dnscrypt-proxy 1.9 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/dns/dnscrypt-proxy/pkg-descr>`__ 
+* plugins: os-fetchmail 1.1 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/mail/fetchmail/pkg-descr>`__ 
+* plugins: os-freeradius 1.9.16 `[9] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/freeradius/pkg-descr>`__ 
+* plugins: os-frr 1.22 `[10] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/frr/pkg-descr>`__ 
+* plugins: os-haproxy 3.5 `[11] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net/haproxy/pkg-descr>`__ 
+* plugins: os-net-snmp 1.5 `[12] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net-mgmt/net-snmp/pkg-descr>`__ 
 * plugins: os-nextcloud-backup 1.0
 * plugins: os-nginx Phalcon 4 fixes
-* plugins: os-postfix 1.20 `[13] <https://github.com/opnsense/plugins/blob/stable/21.7/mail/postfix/pkg-descr>`__ 
+* plugins: os-postfix 1.20 `[13] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/mail/postfix/pkg-descr>`__ 
 * plugins: os-radsecproxy 1.0 (contributed by Tobias Boehnert)
 * plugins: os-realtek-re 1.0 adds Realtek vendor NIC driver module
-* plugins: os-telegraf 1.12.1 `[14] <https://github.com/opnsense/plugins/blob/stable/21.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.1 `[14] <https://github.com/yetitecnologia/plugins/blob/stable/21.7/net-mgmt/telegraf/pkg-descr>`__ 
 * plugins: os-tftp 1.0 (contributed by Michael Muenz)
 * plugins: os-tor Phalcon 4 fix
 * src: FreeBSD updates for Intel e1000, ixgbe and ixl drivers

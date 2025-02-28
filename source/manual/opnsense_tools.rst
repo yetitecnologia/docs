@@ -17,7 +17,7 @@ Example:
 A minor update also updated the kernel and you experience some driver issues with your NIC.
 Open your browser and go to 
 
-https://pkg.opnsense.org/FreeBSD:11:amd64/18.1/sets/
+https://yeti.tec.br/yetisense/FreeBSD:11:amd64/18.1/sets/
 
 Here you can see all the kernels for version 18.1. Be aware to change the version if you are on a newer version.
 As an example you updated from 18.1.4 to 18.1.5 you have now installed kernel-18.1.5. 
@@ -87,7 +87,7 @@ For a complete list of options look at the manpage on the system.
 Example 1:
 ----------
 In the Traffic Shaper a newly introduced typo prevents the system from setting the correct ipfw ruleset.
-You were asked by the developer to test a fresh patch 63cfe0a at URL https://github.com/opnsense/core/commit/63cfe0a96c83eee0e8aea0caa841f4fc7b92a8d0
+You were asked by the developer to test a fresh patch 63cfe0a at URL https://github.com/yetitecnologia/core/commit/63cfe0a96c83eee0e8aea0caa841f4fc7b92a8d0
 At the end of the page there's the short version 63cfe0a so the command would be:
 
 # opnsense-patch 63cfe0a
@@ -99,7 +99,7 @@ Example 2:
 ----------
 You need a special feature for a plugin and ask in Github for it.
 A developer adds it and ask you to install the patch 699f1f2 for testing.
-The full link to it would be https://github.com/opnsense/plugins/commit/699f1f28a33ce0122fa0e2f5e6e1f48eb3c4f074
+The full link to it would be https://github.com/yetitecnologia/plugins/commit/699f1f28a33ce0122fa0e2f5e6e1f48eb3c4f074
 
 # opnsense-patch -c plugins 699f1f2
 

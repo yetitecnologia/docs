@@ -23,7 +23,7 @@ The setup assumes two (virtual) machines with a serial (rs232) connection in bet
 Configure and build a kernel
 ------------------------------
 
-Use our toolchain described in detail `here <https://github.com/opnsense/tools>`__ and add the following options
+Use our toolchain described in detail `here <https://github.com/yetitecnologia/tools>`__ and add the following options
 to your :code:`SMP` file in :code:`/usr/tools/config/[VERSION]/SMP`
 
 

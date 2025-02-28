@@ -76,7 +76,7 @@ Here are the full patch notes:
 * ui: create a unified layout partial for the apply button
 * plugins: adjust all themes for ChartJS 4 use
 * plugins: treat empty string like null on argument map
-* plugins: os-acme-client 4.9 `[2] <https://github.com/opnsense/plugins/blob/stable/25.1/security/acme-client/pkg-descr>`__ 
+* plugins: os-acme-client 4.9 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/security/acme-client/pkg-descr>`__ 
 * src: ipfw: make 'ipfw show' output compatible with 'ipfw add' command
 * src: pf: stop using net_epoch to synchronize access to eth rules
 * src: e1000: fix vlan PCP/DEI on lem(4)
@@ -137,9 +137,9 @@ Here are the full patch notes:
 * ui: reverted style changes only relevant for the development version
 * ui: header image scaling fixes in default light theme
 * ui: remove right border from "aside" element in default dark theme
-* plugins: os-caddy 1.8.2 `[1] <https://github.com/opnsense/plugins/blob/stable/25.1/www/caddy/pkg-descr>`__ 
-* plugins: os-crowdsec 1.0.9 `[2] <https://github.com/opnsense/plugins/blob/stable/25.1/security/crowdsec/pkg-descr>`__ 
-* plugins: os-ddclient 1.27 `[3] <https://github.com/opnsense/plugins/blob/stable/25.1/dns/ddclient/pkg-descr>`__ 
+* plugins: os-caddy 1.8.2 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/www/caddy/pkg-descr>`__ 
+* plugins: os-crowdsec 1.0.9 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/security/crowdsec/pkg-descr>`__ 
+* plugins: os-ddclient 1.27 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/dns/ddclient/pkg-descr>`__ 
 * src: pf: send ICMP destination unreachable fragmentation needed when appropriate
 * src: pfil: set PFIL_FWD for IPv4 forwarding
 * src: if_vxlan: use static initializers
@@ -261,11 +261,11 @@ Here are the full patch notes against version 24.7.12:
 * ui: rewritten default theme for a light look and new logo
 * ui: added default theme variant with a dark look
 * plugins: turning binary data into JSON may fail globally
-* plugins: os-acme-client 4.8 `[2] <https://github.com/opnsense/plugins/blob/stable/25.1/security/acme-client/pkg-descr>`__ 
-* plugins: os-caddy 1.8.1 `[3] <https://github.com/opnsense/plugins/blob/stable/25.1/www/caddy/pkg-descr>`__ 
+* plugins: os-acme-client 4.8 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/security/acme-client/pkg-descr>`__ 
+* plugins: os-caddy 1.8.1 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/www/caddy/pkg-descr>`__ 
 * plugins: os-cpu-microcode 1.1 removes unneeded late loading code
-* plugins: os-haproxy 4.5 `[4] <https://github.com/opnsense/plugins/blob/stable/25.1/net/haproxy/pkg-descr>`__ 
-* pluginsL os-tailscale 1.2 `[5] <https://github.com/opnsense/plugins/blob/stable/25.1/security/tailscale/pkg-descr>`__ 
+* plugins: os-haproxy 4.5 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/net/haproxy/pkg-descr>`__ 
+* pluginsL os-tailscale 1.2 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/security/tailscale/pkg-descr>`__ 
 * src: FreeBSD 14.2-RELEASE `[6] <https://www.freebsd.org/releases/14.2R/relnotes/>`__ 
 * src: p9fs: add an implementation of the 9P filesystem
 * ports: lighttpd 1.4.77 `[7] <https://www.lighttpd.net/2025/1/10/1.4.77/>`__ 
@@ -339,7 +339,7 @@ Here are the full patch notes against version 25.1-RC1:
 * unbound: flag file overwrites when they exist
 * mvc: fix NetworkValidator for IPv4-mapped addresses with netmask (contributed by John Fieber)
 * plugins: turning binary data into JSON may fail globally
-* plugins: os-caddy 1.8.1 `[1] <https://github.com/opnsense/plugins/blob/stable/25.1/www/caddy/pkg-descr>`__ 
+* plugins: os-caddy 1.8.1 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/www/caddy/pkg-descr>`__ 
 
 
 
@@ -353,7 +353,7 @@ stable packages and online upgrades for the development version of 24.7.
 We will likely release a small RC2 online update in the near future.
 The final release date for 25.1 is January 29.
 
-https://pkg.opnsense.org/releases/25.1/
+https://yeti.tec.br/yetisense/releases/25.1/
 
 Here are the full patch notes against version 24.7.12:
 
@@ -408,9 +408,9 @@ Here are the full patch notes against version 24.7.12:
 * ui: improved links with automatic edit and/or search
 * ui: rewritten default theme for a light look and new logo
 * ui: added default theme variant with a dark look
-* plugins: os-acme-client 4.8 `[1] <https://github.com/opnsense/plugins/blob/stable/25.1/security/acme-client/pkg-descr>`__ 
+* plugins: os-acme-client 4.8 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/security/acme-client/pkg-descr>`__ 
 * plugins: os-cpu-microcode 1.1 removes unneeded late loading code
-* plugins: os-haproxy 4.5 `[2] <https://github.com/opnsense/plugins/blob/stable/25.1/net/haproxy/pkg-descr>`__ 
+* plugins: os-haproxy 4.5 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/25.1/net/haproxy/pkg-descr>`__ 
 * src: FreeBSD 14.2-RELEASE `[3] <https://www.freebsd.org/releases/14.2R/relnotes/>`__ 
 * src: p9fs: add an implementation of the 9P filesystem
 * ports: lighttpd 1.4.77 `[4] <https://www.lighttpd.net/2025/1/10/1.4.77/>`__ 
@@ -465,7 +465,7 @@ version out based on the latest development state.  This is not meant
 for production use but all plugins are provided and future updates of
 installations based on these images will be possible.
 
-https://pkg.opnsense.org/releases/25.1/
+https://yeti.tec.br/yetisense/releases/25.1/
 
 There is a bit more work to be done yet most of the milestones have
 already been reached.  If you have a test deployment or would like to

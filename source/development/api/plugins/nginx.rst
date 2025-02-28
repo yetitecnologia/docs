@@ -10,7 +10,7 @@ Nginx
     "``*``","nginx","bans","searchban",""
     "``POST``","nginx","bans","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `Nginx.xml <https://github.com/opnsense/plugins/blob/master/www/nginx/src/opnsense/mvc/app/models/OPNsense/Nginx/Nginx.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Nginx.xml <https://github.com/yetitecnologia/plugins/blob/master/www/nginx/src/opnsense/mvc/app/models/OPNsense/Nginx/Nginx.xml>`__"
 
 .. csv-table:: Resources (LogsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -35,7 +35,7 @@ Nginx
     "``POST``","nginx","service","stop",""
     "``GET``","nginx","service","vts",""
 
-    "``<<uses>>``", "", "", "", "*model* `Nginx.xml <https://github.com/opnsense/plugins/blob/master/www/nginx/src/opnsense/mvc/app/models/OPNsense/Nginx/Nginx.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Nginx.xml <https://github.com/yetitecnologia/plugins/blob/master/www/nginx/src/opnsense/mvc/app/models/OPNsense/Nginx/Nginx.xml>`__"
 
 .. csv-table:: Resources (SettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -147,4 +147,4 @@ Nginx
     "``GET``","nginx","settings","showconfig",""
     "``GET``","nginx","settings","testconfig",""
 
-    "``<<uses>>``", "", "", "", "*model* `Nginx.xml <https://github.com/opnsense/plugins/blob/master/www/nginx/src/opnsense/mvc/app/models/OPNsense/Nginx/Nginx.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Nginx.xml <https://github.com/yetitecnologia/plugins/blob/master/www/nginx/src/opnsense/mvc/app/models/OPNsense/Nginx/Nginx.xml>`__"

@@ -65,7 +65,7 @@ guide how to use these.
 
 The :code:`getForm()` method itself merely passes the structure to the view, which can use this information to render
 forms on page load (statically).
-In our standard layout `partials <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/views/layout_partials/form_input_tr.volt>`__ we offer some different record types which we will detail below:
+In our standard layout `partials <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/views/layout_partials/form_input_tr.volt>`__ we offer some different record types which we will detail below:
 
 
 **Attributes**
@@ -153,7 +153,7 @@ post request to /api/sample/test/echo, using jQuery:
 .. Tip::
 
     OPNsense ships with two standard controllers to incorporate default action scenario's, such as mutating models
-    and restarting services. These can be found in our repository `here <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/controllers/OPNsense/Base/>`__
+    and restarting services. These can be found in our repository `here <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/controllers/OPNsense/Base/>`__
     and are named :code:`ApiMutableModelControllerBase`, :code:`ApiMutableServiceControllerBase`. Both extend :code:`ApiControllerBase`
     as described in this chapter. The mutable model controller is explained in more detail in :doc:`using grids <../examples/using_grids>`, the
     service controller is explained in :doc:`api enable services <../examples/api_enable_services>`

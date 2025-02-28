@@ -897,7 +897,7 @@ All files are created in their original locations (on the OPNsense
 machine /usr/local/…), now we are ready to create a package from them.
 To fully use this process and create the actual package, it’s best to
 setup a full build environment (explained over here:
-https://github.com/opnsense/tools )
+https://github.com/yetitecnologia/tools )
 
 When everything is in place, we will create a new plugin directory. For
 this example we will use the following:
@@ -961,9 +961,9 @@ prefixed with os-, our new package file will be called:
    :name: reference
 
 -  source of this example :
-   https://github.com/opnsense/plugins/tree/master/devel/helloworld
--  build instructions : https://github.com/opnsense/tools
--  practical frontend development : https://github.com/opnsense/ui_devtools
+   https://github.com/yetitecnologia/plugins/tree/master/devel/helloworld
+-  build instructions : https://github.com/yetitecnologia/tools
+-  practical frontend development : https://github.com/yetitecnologia/ui_devtools
 -  frontend template language reference (Volt) :
    https://docs.phalcon.io/latest/volt/
 -  configuration template language reference (mostly the same as Volt) :

@@ -15,7 +15,7 @@ Interfaces
     "``POST``","interfaces","gif_settings","set",""
     "``POST``","interfaces","gif_settings","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Gif.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Gif.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Gif.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Gif.xml>`__"
 
 .. csv-table:: Resources (GreSettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -31,7 +31,7 @@ Interfaces
     "``POST``","interfaces","gre_settings","set",""
     "``POST``","interfaces","gre_settings","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Gre.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Gre.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Gre.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Gre.xml>`__"
 
 .. csv-table:: Resources (LaggSettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -46,7 +46,7 @@ Interfaces
     "``POST``","interfaces","lagg_settings","set",""
     "``POST``","interfaces","lagg_settings","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Lagg.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Lagg.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Lagg.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Lagg.xml>`__"
 
 .. csv-table:: Resources (LoopbackSettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -61,7 +61,7 @@ Interfaces
     "``POST``","interfaces","loopback_settings","set",""
     "``POST``","interfaces","loopback_settings","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Loopback.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Loopback.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Loopback.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Loopback.xml>`__"
 
 .. csv-table:: Resources (NeighborSettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -76,7 +76,7 @@ Interfaces
     "``POST``","interfaces","neighbor_settings","set",""
     "``POST``","interfaces","neighbor_settings","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Neighbor.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Neighbor.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Neighbor.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Neighbor.xml>`__"
 
 .. csv-table:: Resources (OverviewController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -101,7 +101,7 @@ Interfaces
     "``POST``","interfaces","vip_settings","set",""
     "``POST``","interfaces","vip_settings","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Vip.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Vip.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vip.xml>`__"
 
 .. csv-table:: Resources (VlanSettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -116,7 +116,7 @@ Interfaces
     "``POST``","interfaces","vlan_settings","set",""
     "``POST``","interfaces","vlan_settings","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Vlan.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vlan.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Vlan.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/Vlan.xml>`__"
 
 .. csv-table:: Resources (VxlanSettingsController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -131,4 +131,4 @@ Interfaces
     "``POST``","interfaces","vxlan_settings","set",""
     "``POST``","interfaces","vxlan_settings","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `VxLan.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/VxLan.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `VxLan.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Interfaces/VxLan.xml>`__"

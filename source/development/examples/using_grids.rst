@@ -73,7 +73,7 @@ file containing the actual model definition.
 
 Note the :code:`ArrayField` type in the XML, this is a special field type for nested items in automatically includes an internal uuid for easy referencing when written to disk.
 Both other field types are also used in the HelloWorld example earlier. All
-the preinstalled types can be found in our field type directory on `GitHub <https://github.com/opnsense/core/tree/master/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes>`__.
+the preinstalled types can be found in our field type directory on `GitHub <https://github.com/yetitecnologia/core/tree/master/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes>`__.
 
 
 ----------------------------
@@ -273,7 +273,7 @@ defined earlier.
 Menu and ACL
 --------------------------------------
 
-The sample package on `GitHub <https://github.com/opnsense/plugins/tree/master/devel/grid_example>`__ also contains a
+The sample package on `GitHub <https://github.com/yetitecnologia/plugins/tree/master/devel/grid_example>`__ also contains a
 menu definition (xml) and ACL (xml), which are similar to the ones explained in the hello world example.
 
 

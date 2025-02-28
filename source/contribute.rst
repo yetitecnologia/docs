@@ -137,11 +137,11 @@ by either sharing your ideas on or send in a pull request on github.
 Designing new features
 ----------------------
 If you like to help designing new features then start with reading the :doc:`Development
-manual </develop>` and checkout our `roadmap <https://opnsense.org/about/road-map/>`__ as well as our `issue tracker <https://github.com/opnsense/core/issues>`__.
+manual </develop>` and checkout our `roadmap <https://opnsense.org/about/road-map/>`__ as well as our `issue tracker <https://github.com/yetitecnologia/core/issues>`__.
 Before starting it is always a good to share your idea first with a core developer,
 to do so you can use either:
 
-* `github <https://github.com/opnsense/core/>`__ and  `create a issue <https://github.com/opnsense/core/issues/new>`__
+* `github <https://github.com/yetitecnologia/core/>`__ and  `create a issue <https://github.com/yetitecnologia/core/issues/new>`__
   and mention you volunteer for taking on the development task (we will correctly label it as enhancement or feature)
 * find one of us on IRC/Libera Chat (#opnsense) and see if we are available to
   discuss your idea.
@@ -173,7 +173,7 @@ Documentation & wiki articles
 -----------------------------
 The easiest way to help with documentation is to write how-to type articles.
 As the wiki & documentation project itself is written in **reStructuredText** you
-can offer your content in this format (preferably as a `pull request <https://github.com/opnsense/docs>`__).
+can offer your content in this format (preferably as a `pull request <https://github.com/yetitecnologia/docs>`__).
 Other formats are also possible, such as:
 
 * markup with ./images/directory including the used images (if any)

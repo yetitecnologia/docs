@@ -29,7 +29,7 @@ Example
 -------
 
 Before going into any details, it is often most useful to present an example that includes most of the core logic:
-the `interfaces overview <https://github.com/opnsense/core/blob/master/src/opnsense/www/js/widgets/Interfaces.js>`__ widget.
+the `interfaces overview <https://github.com/yetitecnologia/core/blob/master/src/opnsense/www/js/widgets/Interfaces.js>`__ widget.
 
 
 .. _functions:
@@ -38,14 +38,14 @@ the `interfaces overview <https://github.com/opnsense/core/blob/master/src/opnse
 Functions
 ---------
 
-The `BaseWidget <https://github.com/opnsense/core/blob/master/src/opnsense/www/js/widgets/BaseWidget.js>`__ shows the skeleton
+The `BaseWidget <https://github.com/yetitecnologia/core/blob/master/src/opnsense/www/js/widgets/BaseWidget.js>`__ shows the skeleton
 of the widget Javascript module. Widgets extend this class to provide defaults to the framework. To make life a little
 easier for common patterns, other base widgets may also be exposed. Currently these are:
 
-- `BaseTableWidget <https://github.com/opnsense/core/blob/master/src/opnsense/www/js/widgets/BaseTableWidget.js>`__:
+- `BaseTableWidget <https://github.com/yetitecnologia/core/blob/master/src/opnsense/www/js/widgets/BaseTableWidget.js>`__:
   Exposes a dynamic table that can be configured in multiple orientations and only needs a data feed.
 
-- `BaseGaugeWidget <https://github.com/opnsense/core/blob/master/src/opnsense/www/js/widgets/BaseGaugeWidget.js>`__:
+- `BaseGaugeWidget <https://github.com/yetitecnologia/core/blob/master/src/opnsense/www/js/widgets/BaseGaugeWidget.js>`__:
   Exposes a Gauge widget that allows presenting simple current/total values with multiple hooks to customize the widget.
 
 The following functions are available to be overridden by the widget when extended from the BaseWidget:
@@ -176,7 +176,7 @@ information is removed. Adjust the styling as necessary.
     While this function is debounced (throttled to prevent excessive calls), it is still executed often during a resize.
     If this function is doing a lot of heavy lifting, make sure you implement a notion of state to prevent
     the same logic from executing more than necessary. An example of this can be found in the
-    `BaseTableWidget <https://github.com/opnsense/core/blob/master/src/opnsense/www/js/widgets/BaseTableWidget.js>`__.
+    `BaseTableWidget <https://github.com/yetitecnologia/core/blob/master/src/opnsense/www/js/widgets/BaseTableWidget.js>`__.
 
 If you return true from this function, the grid will be forcefully updated to adjust to a new layout.
 
@@ -327,7 +327,7 @@ BaseGaugeWidget
 ---------------
 
 :code:`BaseGuageWidget` defines a simple responsive gauge chart. An example implementation can be found in the
-`Memory Usage Widget <https://github.com/opnsense/core/blob/master/src/opnsense/www/js/widgets/Memory.js>`__
+`Memory Usage Widget <https://github.com/yetitecnologia/core/blob/master/src/opnsense/www/js/widgets/Memory.js>`__
 
 *createGaugeChart*
 =====================================================================================================================
@@ -349,7 +349,7 @@ BaseGaugeWidget
 Styling
 -------
 
-Any styling can be added to the `Dashboard CSS file <https://github.com/opnsense/core/blob/master/src/opnsense/www/css/dashboard.css>`__
+Any styling can be added to the `Dashboard CSS file <https://github.com/yetitecnologia/core/blob/master/src/opnsense/www/css/dashboard.css>`__
 or a themed version of this file.
 
 Since a lot of the charts have programmatic approaches to colors, the special
@@ -373,7 +373,7 @@ Configurable widgets
 To make widgets configurable, make sure you pass in the :code:`config` object in the constructor and, call :code:`super(config)` as
 described in the :ref:`Functions - constructor <functions>` section. Also set :code:`this.configurable = true` in the constructor as well.
 
-The `CPU graph widget <https://github.com/opnsense/core/blob/master/src/opnsense/www/js/widgets/Cpu.js>`__ is an example of a configurable widget.
+The `CPU graph widget <https://github.com/yetitecnologia/core/blob/master/src/opnsense/www/js/widgets/Cpu.js>`__ is an example of a configurable widget.
 
 Two functions must be overridden to make a widget configurable:
 
@@ -436,7 +436,7 @@ ACL and translations
 Every widget must expose the endpoints it's using to the framework, so the controller can determine whether
 this widget is accessible for the current logged in user. To do this, you must create a section in the
 :code:`src/opnsense/www/js/widgets/Metadata/<Core|Plugin-specific>.xml` file.
-The `Core XML file <https://github.com/opnsense/core/blob/master/src/opnsense/www/js/widgets/Metadata/Core.xml>`__ shows
+The `Core XML file <https://github.com/yetitecnologia/core/blob/master/src/opnsense/www/js/widgets/Metadata/Core.xml>`__ shows
 how widget metadata is structured.
 
 If any of the defined endpoints is inaccesible, the widget will not be available for the user. Note that the same rules 

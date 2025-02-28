@@ -9,7 +9,7 @@ Kea
     "``GET``","kea","ctrl_agent","get",""
     "``POST``","kea","ctrl_agent","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `KeaCtrlAgent.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Kea/KeaCtrlAgent.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `KeaCtrlAgent.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Kea/KeaCtrlAgent.xml>`__"
 
 .. csv-table:: Resources (Dhcpv4Controller.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -36,7 +36,7 @@ Kea
     "``POST``","kea","dhcpv4","setSubnet","$uuid"
     "``POST``","kea","dhcpv4","uploadReservations",""
 
-    "``<<uses>>``", "", "", "", "*model* `KeaDhcpv4.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Kea/KeaDhcpv4.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `KeaDhcpv4.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Kea/KeaDhcpv4.xml>`__"
 
 .. csv-table:: Resources (Leases4Controller.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -54,4 +54,4 @@ Kea
     "``GET``","kea","service","status",""
     "``POST``","kea","service","stop",""
 
-    "``<<uses>>``", "", "", "", "*model* `KeaDhcpv4.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Kea/KeaDhcpv4.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `KeaDhcpv4.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Kea/KeaDhcpv4.xml>`__"

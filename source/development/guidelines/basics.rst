@@ -40,7 +40,7 @@ The issue with user input impossible to validate is that it will bite you eventu
 (for example a non authorized user can write commands that will be executed with elevated privileges, we saw this with openvpn for example).
 
 For this reason we do not allow plain text configuration data to be stored in our configuration
-(although some legacy components still use this `opnsense/core#d62015 <https://github.com/opnsense/core/commit/d62015df1cdb0c0711b488bd66ced631b9a4f37b>`__ )
+(although some legacy components still use this `opnsense/core#d62015 <https://github.com/yetitecnologia/core/commit/d62015df1cdb0c0711b488bd66ced631b9a4f37b>`__ )
 
 .. Note::
 

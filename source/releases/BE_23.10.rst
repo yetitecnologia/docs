@@ -76,7 +76,7 @@ Here are the full patch notes:
 * system: fix log severity selector (contributed by kulikov-a)
 * system: include IPv6 link-local interface addresses for web GUI and OpenSSH (contributed by Maurice Walker)
 * system: update cron and gateways model
-* system: change ZFS transaction group defaults to avoid excessive disk wear `[1] <https://github.com/opnsense/core/commit/269b9fbaf>`__ 
+* system: change ZFS transaction group defaults to avoid excessive disk wear `[1] <https://github.com/yetitecnologia/core/commit/269b9fbaf>`__ 
 * system: handle case insensitivity while reading groups
 * system: shuffle authentication templates to the end of login configuration
 * system: add "maxfilesize" option to enforce a log rotate when files exceed their limit
@@ -128,16 +128,16 @@ Here are the full patch notes:
 * ui: upgrade jqTree to version 1.7.5
 * plugins: os-OPNBEcore 1.3 adds "any interface" floating rule support
 * plugins: os-OPNcentral 1.9 adds "any interface" floating rule support and fixes memory consumption with downloads
-* plugins: os-acme-client 3.20 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-bind 1.29 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
-* plugins: os-ddclient 1.20 `[4] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-acme-client 3.20 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-bind 1.29 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
+* plugins: os-ddclient 1.20 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
 * plugins: os-dec-hw 1.0 is a Deciso hardware specific dashboard widget
-* plugins: os-frr 1.38 `[5] <https://github.com/opnsense/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
-* plugins: os-node_exporter 1.2 `[6] <https://github.com/opnsense/plugins/blob/stable/23.7/sysutils/node_exporter/pkg-descr>`__ 
+* plugins: os-frr 1.38 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
+* plugins: os-node_exporter 1.2 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/sysutils/node_exporter/pkg-descr>`__ 
 * plugins: os-sunnyvalley 1.4 switches to new repository layout
-* plugins: os-telegraf 1.12.10 `[7] <https://github.com/opnsense/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.10 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
 * plugins: os-upnp now reloads on newwanip event
-* plugins: os-wireguard 2.6 `[8] <https://github.com/opnsense/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-wireguard 2.6 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
 * ports: curl 8.5.0 `[9] <https://curl.se/changes.html#8_5_0>`__ 
 * ports: nss 3.95 `[10] <https://firefox-source-docs.mozilla.org/security/nss/releases/nss_3_95.html>`__ 
 * ports: perl 5.36.3 `[11] <https://perldoc.perl.org/5.36.3/perldelta>`__ 
@@ -260,17 +260,17 @@ Here are the full patch notes:
 * plugins: os-OPNBEcore configuration merge improvements
 * plugins: os-OPNProxy adds TLS client certificate validation
 * plugins: os-OPNcentral now passes "impersonated_by" revision attribute to connected node
-* plugins: os-bind 1.28 `[1] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
+* plugins: os-bind 1.28 `[1] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
 * plugins: os-c-icap fix for upstream update syntax error (contributed by Andy Binder)
-* plugins: os-ddclient 1.17 `[2] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
-* plugins: os-frr 1.37 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
+* plugins: os-ddclient 1.17 `[2] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-frr 1.37 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
 * plugins: os-net-snmp fix for directory setup (contributed by doktornotor)
-* plugins: os-nginx 1.32.2 `[4] <https://github.com/opnsense/plugins/blob/stable/23.7/www/nginx/pkg-descr>`__ 
-* plugins: os-openconnect 1.4.5 `[5] <https://github.com/opnsense/plugins/blob/stable/23.7/security/openconnect/pkg-descr>`__ 
-* plugins: os-rspamd 1.13 `[6] <https://github.com/opnsense/plugins/blob/stable/23.7/mail/rspamd/pkg-descr>`__ 
+* plugins: os-nginx 1.32.2 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/www/nginx/pkg-descr>`__ 
+* plugins: os-openconnect 1.4.5 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/security/openconnect/pkg-descr>`__ 
+* plugins: os-rspamd 1.13 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/mail/rspamd/pkg-descr>`__ 
 * plugins: os-squid adds a meta package for web proxy core removal in 24.1
 * plugins: os-theme-ciada fix for previous regression
-* plugins: os-wireguard 2.5 `[7] <https://github.com/opnsense/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-wireguard 2.5 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
 * plugins: os-wireguard-go fix for device registration
 * src: pf: enable the syncookie feature for IPv6
 * src: pflog: log packet dropped by default rule with drop
@@ -533,25 +533,25 @@ Here are the full patch notes:
 * plugins: os-OPNProxy 1.0.3 bugfixes connect requests and improves logging
 * plugins: os-OPNWAF 1.0.1 (see firmware plugin info)
 * plugins: os-OPNcentral 1.7 (see firmware plugin info)
-* plugins: os-acme-client 3.19 `[3] <https://github.com/opnsense/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
-* plugins: os-bind 1.27 `[4] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
-* plugins: os-crowdsec 1.0.7 `[5] <https://github.com/opnsense/plugins/blob/stable/23.7/security/crowdsec/pkg-descr>`__ 
-* plugins: os-ddclient 1.16 `[6] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
-* plugins: os-dnscrypt-proxy 1.14 `[7] <https://github.com/opnsense/plugins/blob/stable/23.7/dns/dnscrypt-proxy/pkg-descr>`__ 
+* plugins: os-acme-client 3.19 `[3] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/security/acme-client/pkg-descr>`__ 
+* plugins: os-bind 1.27 `[4] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/bind/pkg-descr>`__ 
+* plugins: os-crowdsec 1.0.7 `[5] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/security/crowdsec/pkg-descr>`__ 
+* plugins: os-ddclient 1.16 `[6] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/ddclient/pkg-descr>`__ 
+* plugins: os-dnscrypt-proxy 1.14 `[7] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/dns/dnscrypt-proxy/pkg-descr>`__ 
 * plugins: os-dyndns removed due to unmaintained code base
 * plugins: os-firewall 1.4 adds port alias support / allows floating rules without interface set (contributed by Michael Muenz)
-* plugins: os-frr 1.36 `[8] <https://github.com/opnsense/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
+* plugins: os-frr 1.36 `[8] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/frr/pkg-descr>`__ 
 * plugins: os-iperf adds rubygem-rexml dependency (contributed by Hannah Kiekens)
 * plugins: os-relayd 2.7 now supports newer upstream release of relayd
 * plugins: os-rfc2136 replaces calls to obsolete get_interface_ip[v6]()
 * plugins: os-smart reverts the use of smartctl to gather disks
 * plugins: os-sunnyvalley 1.3 changes repository URL (contributed by Sunny Valley Networks)
-* plugins: os-telegraf 1.12.9 `[9] <https://github.com/opnsense/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
+* plugins: os-telegraf 1.12.9 `[9] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net-mgmt/telegraf/pkg-descr>`__ 
 * plugins: os-theme-rebellion 1.8.9 fixes Unbound DNS reporting page
 * plugins: os-tinc 1.7 adds support for "StrictSubnets" variable (contributed by andrewhotlab)
 * plugins: os-upnp replaces calls to obsolete get_interface_ip()
 * plugins: os-wazuh-agent 1.0 `[10] <https://docs.opnsense.org/manual/wazuh-agent.html>`__ 
-* plugins: os-wireguard 2.3 `[11] <https://github.com/opnsense/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
+* plugins: os-wireguard 2.3 `[11] <https://github.com/yetitecnologia/plugins/blob/stable/23.7/net/wireguard/pkg-descr>`__ 
 * plugins: os-zabbix62-agent removed due to Zabbix 6.2 EoL
 * plugins: os-zabbix62-proxy removed due to Zabbix 6.2 EoL
 * src: FreeBSD 13.2-RELEASE `[12] <https://www.freebsd.org/releases/13.2R/relnotes/>`__ 

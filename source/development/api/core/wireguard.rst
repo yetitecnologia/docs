@@ -19,7 +19,7 @@ Wireguard
     "``POST``","wireguard","client","setClient","$uuid"
     "``POST``","wireguard","client","toggleClient","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Client.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Wireguard/Client.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Client.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Wireguard/Client.xml>`__"
 
 .. csv-table:: Service (GeneralController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -28,7 +28,7 @@ Wireguard
     "``GET``","wireguard","general","get",""
     "``POST``","wireguard","general","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Wireguard/General.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Wireguard/General.xml>`__"
 
 .. csv-table:: Resources (ServerController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -44,7 +44,7 @@ Wireguard
     "``POST``","wireguard","server","setServer","$uuid=null"
     "``POST``","wireguard","server","toggleServer","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Server.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Wireguard/Server.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Server.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Wireguard/Server.xml>`__"
 
 .. csv-table:: Service (ServiceController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -58,4 +58,4 @@ Wireguard
     "``GET``","wireguard","service","status",""
     "``POST``","wireguard","service","stop",""
 
-    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Wireguard/General.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Wireguard/General.xml>`__"

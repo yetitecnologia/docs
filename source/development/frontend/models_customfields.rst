@@ -67,6 +67,6 @@ The validation can be used as any standard type, when prefixed with :code:`.\ ` 
 
 .. Tip::
 
-    Inspect the `basic field <https://github.com/opnsense/core/tree/master/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes>`__ types
+    Inspect the `basic field <https://github.com/yetitecnologia/core/tree/master/src/opnsense/mvc/app/models/OPNsense/Base/FieldTypes>`__ types
     for inspiration, a concrete example of a custom field type can be found in the
-    `firewall <https://github.com/opnsense/core/tree/master/src/opnsense/mvc/app/models/OPNsense/Firewall>`__ section
+    `firewall <https://github.com/yetitecnologia/core/tree/master/src/opnsense/mvc/app/models/OPNsense/Firewall>`__ section

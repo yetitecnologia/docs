@@ -9,7 +9,7 @@ assignees: ''
 
 Before you add a new report, we ask you kindly to acknowledge the following:
 
-- [ ] I have read the contributing guide lines at https://github.com/opnsense/docs/blob/master/CONTRIBUTING.md
+- [ ] I have read the contributing guide lines at https://github.com/yetitecnologia/docs/blob/master/CONTRIBUTING.md
 - [ ] I have searched the existing issues and I am convinced that mine is new.
 
 **Describe the issue**

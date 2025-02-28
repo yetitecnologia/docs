@@ -30,7 +30,7 @@ Core
     "``POST``","core","hasync","reconfigure",""
     "``POST``","core","hasync","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `Hasync.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Core/Hasync.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Hasync.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Core/Hasync.xml>`__"
 
 .. csv-table:: Resources (HasyncStatusController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -95,4 +95,4 @@ Core
     "``POST``","core","tunables","set",""
     "``POST``","core","tunables","setItem","$uuid"
 
-    "``<<uses>>``", "", "", "", "*model* `Tunables.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Core/Tunables.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Tunables.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Core/Tunables.xml>`__"

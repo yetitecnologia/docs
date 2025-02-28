@@ -17,7 +17,7 @@ Trust
     "``POST``","trust","ca","set","$uuid=null"
     "``POST``","trust","ca","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `Ca.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Trust/Ca.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Ca.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Trust/Ca.xml>`__"
 
 .. csv-table:: Resources (CertController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -36,7 +36,7 @@ Trust
     "``POST``","trust","cert","set",""
     "``GET``","trust","cert","userList",""
 
-    "``<<uses>>``", "", "", "", "*model* `Cert.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Trust/Cert.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Cert.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Trust/Cert.xml>`__"
 
 .. csv-table:: Resources (CrlController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -56,4 +56,4 @@ Trust
     "``POST``","trust","settings","reconfigure",""
     "``POST``","trust","settings","set",""
 
-    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/opnsense/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Trust/General.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `General.xml <https://github.com/yetitecnologia/core/blob/master/src/opnsense/mvc/app/models/OPNsense/Trust/General.xml>`__"

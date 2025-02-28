@@ -11,7 +11,7 @@ Stunnel
     "``GET``","stunnel","service","status",""
     "``POST``","stunnel","service","stop",""
 
-    "``<<uses>>``", "", "", "", "*model* `Stunnel.xml <https://github.com/opnsense/plugins/blob/master/security/stunnel/src/opnsense/mvc/app/models/OPNsense/Stunnel/Stunnel.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Stunnel.xml <https://github.com/yetitecnologia/plugins/blob/master/security/stunnel/src/opnsense/mvc/app/models/OPNsense/Stunnel/Stunnel.xml>`__"
 
 .. csv-table:: Service (ServicesController.php)
    :header: "Method", "Module", "Controller", "Command", "Parameters"
@@ -27,4 +27,4 @@ Stunnel
     "``POST``","stunnel","services","setItem","$uuid"
     "``POST``","stunnel","services","toggleItem","$uuid,$enabled=null"
 
-    "``<<uses>>``", "", "", "", "*model* `Stunnel.xml <https://github.com/opnsense/plugins/blob/master/security/stunnel/src/opnsense/mvc/app/models/OPNsense/Stunnel/Stunnel.xml>`__"
+    "``<<uses>>``", "", "", "", "*model* `Stunnel.xml <https://github.com/yetitecnologia/plugins/blob/master/security/stunnel/src/opnsense/mvc/app/models/OPNsense/Stunnel/Stunnel.xml>`__"
