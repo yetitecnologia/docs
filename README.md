@@ -1,4 +1,4 @@
-![alt text](https://opnsense.org/wp-content/themes/OPNsense/assets/img/opnsense.png "Logo Title Text 1")
+![alt text](https://yeti.tec.br/yetisense/imagens/default-logo.png "Logo Title Text 1")
 
 # OPNsense documentation
 

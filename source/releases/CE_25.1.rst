@@ -18,12 +18,8 @@ more.
 Download links, an installation guide `[1] <https://docs.opnsense.org/manual/install.html>`__  and the checksums for the images
 can be found below as well.
 
-* Europe: https://opnsense.c0urier.net/releases/25.1/
-* US East Coast: https://mirror.wdc1.us.leaseweb.net/opnsense/releases/25.1/
-* US West Coast: https://mirror.sfo12.us.leaseweb.net/opnsense/releases/25.1/
-* South America: http://mirror.ueb.edu.ec/opnsense/releases/25.1/
-* East Asia: https://mirror.ntct.edu.tw/opnsense/releases/25.1/
-* Full mirror list: https://opnsense.org/download/
+* Brasil: https://yeti.tec.br/yetisense/FreeBSD:14:amd64/25.1/
+* Full mirror list: https://yeti.tec.br/yetisense/download/
 
 
 --------------------------------------------------------------------------
@@ -180,12 +176,8 @@ more.
 Download links, an installation guide `[1] <https://docs.opnsense.org/manual/install.html>`__  and the checksums for the images
 can be found below as well.
 
-* Europe: https://opnsense.c0urier.net/releases/25.1/
-* US East Coast: https://mirror.wdc1.us.leaseweb.net/opnsense/releases/25.1/
-* US West Coast: https://mirror.sfo12.us.leaseweb.net/opnsense/releases/25.1/
-* South America: http://mirror.ueb.edu.ec/opnsense/releases/25.1/
-* East Asia: https://mirror.ntct.edu.tw/opnsense/releases/25.1/
-* Full mirror list: https://opnsense.org/download/
+* Brasil: https://yeti.tec.br/yetisense/FreeBSD:14:amd64/25.1/
+* Full mirror list: https://yeti.tec.br/yetisense/download/
 
 Here are the full patch notes against version 24.7.12:
 

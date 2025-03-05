@@ -223,7 +223,7 @@
     <nextuid>2000</nextuid>
     <nextgid>2000</nextgid>
     <timezone>Etc/UTC</timezone>
-    <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
+    <timeservers>a.st1.ntp.br b.st1.ntp.br c.st1.ntp.br</timeservers>
     <webgui>
       <protocol>https</protocol>
     </webgui>
@@ -336,6 +336,6 @@
     <enable/>
   </rrd>
   <ntpd>
-    <prefer>0.opnsense.pool.ntp.org</prefer>
+    <prefer>a.st1.ntp.br</prefer>
   </ntpd>
 </opnsense>
